@@ -1,0 +1,127 @@
+// PLANCIA — Collegamenti: sotto -> murata, poppa -> cabina_bailey
+
+# STANZA plancia
+titolo: La plancia
+stile: luce
+
+## DESCRIZIONE
+La plancia della Arthur Dee è un semicerchio di vetri e strumenti, ampia, pulita, silenziosa come una chiesa a mezzanotte. Le consolle sono accese a metà: alcuni schermi brillano, altri sono neri. Nell'aria c'è un odore che non ti aspetti: sottobosco, terra umida. Come se qualcuno avesse portato dentro un cesto di funghi e poi se ne fosse andato.
+
+Al centro, la poltrona del comandante, girata verso prua. Su un leggio accanto alla timoneria, un registro aperto. Più in là, lo schermo verde di un radar, con la sua lancetta che gira.
+
+Una radio VHF appesa sopra il tavolo di carteggio. E il tavolo, coperto da una carta nautica del Mare di Barents.
+
+Sotto, la scala verso la murata. A poppa, una porta di legno lucido con una targhetta d'ottone: CAPTAIN.
+
+## DESCRIZIONE ritorno
+La plancia. I vetri, gli schermi accesi a metà, la poltrona del comandante girata verso prua. Il registro, il radar, la carta nautica. L'odore di bosco.
+
+Sotto la murata. A poppa la cabina del capitano.
+
+## DESCRIZIONE se risonanza >= 3
+La plancia. La poltrona del comandante adesso è girata verso di te.
+
+Non l'hai toccata. Non hai sentito nessun rumore.
+
+Sotto la murata. A poppa la cabina del capitano.
+
+## DESCRIZIONE se risonanza >= 6
+La plancia. Tutti gli schermi sono accesi. Su tutti c'è la stessa scritta, in un carattere da terminale, verde su nero.
+
+SOGLIA DI ACCETTABILITÀ: SUPERATA.
+
+~ Era un'espressione del Capitano Bailey. Ci piaceva. Ci piace ancora. Abbiamo superato ogni soglia, signor Aamodt. Siamo diventati accettabili a noi stessi.
+
+Sotto la murata. A poppa la cabina del capitano.
+
+## USCITA sotto -> murata
+## USCITA poppa -> cabina_bailey
+La porta di legno lucido si apre senza un cigolio. La maniglia d'ottone è calda, come se qualcuno l'avesse appena lasciata.
+
+## OGGETTO radar: il radar
+Lo schermo verde, la lancetta che gira, i puntini che si accendono e si spengono. Quello grande, a tre miglia per sudovest, è lo Skarv. Lo riconosci.
+
+Poi la lancetta passa a nordovest e accende un'altra eco. Media. In movimento. A quindici nodi.
+
+Una baleniera. Lo sai senza leggere la sigla. Lo sai perché per quattro giorni l'hai vista da dall'altra parte dello schermo.
+
+*La Willow*, pensi. *Siamo noi. Siamo noi nel 2022 che ci inseguiamo.*
+
+>> risonanza +2
+>> ricordo leif_willow
+
+## OGGETTO radar: il radar se esaminato radar
+Il radar. L'eco della baleniera non c'è più. C'è solo lo Skarv, e intorno allo Skarv un anello di puntini fittissimi, minuscoli, come granelli di sale. Si stringono. Piano.
+
+## OGGETTO registro: il registro di bordo
+Un registro rilegato in tela blu, le pagine fitte di una calligrafia piccola e diritta. L'ultima annotazione scritta a mano è di quattro anni fa:
+
+*Malfunzionamenti strumentali entro la soglia di accettabilità. Il professore insiste. Ho dato ordine di procedere. Che Dio mi perdoni se sbaglio. — M.B.*
+
+Poi altre pagine. Tante. Scritte dopo. Non a penna: le lettere sono di un rosso bruno, in rilievo, come vene sotto la pelle. Tutte uguali, una riga per giorno.
+
+*Giorno. Ascoltiamo.*
+*Giorno. Ascoltiamo.*
+*Giorno. Ascoltiamo.*
+
+Centinaia di pagine.
+
+>> risonanza +1
+>> ricordo bailey_ordini
+
+## OGGETTO registro: il registro di bordo se risonanza >= 5
+Sfogli fino all'ultima pagina del registro. L'ultima riga è fresca, le lettere ancora umide, rosse.
+
+*Giorno. Ospite a bordo. Leif Aamodt, baleniere. Arriva sempre tardi. Questa volta no.*
+
+>> risonanza +1
+
+## OGGETTO poltrona: la poltrona del comandante
+Pelle consumata, un poggiatesta, braccioli larghi. Matthew Bailey ci ha passato cinque anni. Ti siedi. È calda.
+
+Da qui si vede tutta la prua, e oltre la prua la nebbia. E dentro la nebbia, a tratti, una luce rossa che pulsa. Come un faro. Come un cuore visto attraverso la pelle.
+
+>> risonanza +1
+
+## OGGETTO carta: la carta nautica
+Una carta del Mare di Barents, coperta di annotazioni a matita. Rotte, rilevamenti, profondità. Al centro, un punto cerchiato tre volte. Accanto, le coordinate: *73.25° N — 29° E.*
+
+E sotto, a matita rossa, un'altra mano, più nervosa: *31.XII.1942.*
+
+La battaglia. Lo sapevi. Lo sapevano tutti, sulla Willow, dopo. Che quella fetta di mare era un cimitero di ferro.
+
+>> risonanza +1
+
+## OGGETTO vhf: la radio VHF
+Prendi il microfono. Canale 16. «Skarv, Skarv, qui…» Esiti. «Qui la Arthur Dee.»
+
+Una pausa lunghissima. Poi la voce di Odd, incerta. «Leif? Sei tu? Il segnale arriva da… Leif, il segnale arriva da sotto. Da sott'acqua.»
+
+>> risonanza +1
+
+## OGGETTO vhf: la radio VHF se risonanza >= 5
+Il microfono della radio è appiccicoso. Lo stacchi dal gancio e un filo rosso, sottile, si tende tra la plastica e il tuo palmo. Poi si spezza.
+
+Dall'altoparlante, piano, una conversazione. Due uomini che parlano in norvegese, ridono, si versano da bere. Una voce è la tua. Ha quattro anni di meno.
+
+«Skål, inglese. Grazie a voi per non averci pescati come merluzzi surgelati.»
+
+>> risonanza +1
+>> ricordo leif_aquavit
+
+## ASCOLTA
+Ascolti. Gli strumenti ronzano. Uno degli schermi emette un bip regolare, lento. Lo stai ancora contando quando ti accorgi che ha lo stesso ritmo del tuo cuore. Poi il tuo cuore accelera. Il bip no.
+
+>> risonanza +1
+
+## ASCOLTA
+La radio VHF gracchia. Frammenti di trasmissioni di altre navi, altre notti. Una voce in tedesco che chiede la posizione. Un SOS in inglese, ripetuto, senza risposta. Una donna che canta una ninna nanna in russo.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+~ Lei sa perché è venuto, signor Aamodt? Non per la ricompensa. Quella la voleva il suo capitano, quattro anni fa. E nemmeno per il giornalista.
+
+~ È venuto perché noi siamo l'unica cosa che lei abbia mai inseguito fino in fondo. Un uomo deve pur arrivare da qualche parte, prima o poi.
+
+>> risonanza +1
