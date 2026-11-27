@@ -1,0 +1,119 @@
+// RICORDI della linea Arthur Dee.
+
+# RICORDO leif_willow
+persona: Leif
+titolo: Quattro giorni
+Sono io al radar. Il secondo giorno, la notte, un'eco proprio dove il capitano inglese dice che dovrebbe essere la sua nave. Motori al massimo. All'arrembaggio.
+E lei si allontana. Più noi acceleriamo, più lei accelera. Se rallentiamo, rallenta. Quindici nodi, una nave che stava affondando. Non ho mai visto una cosa così.
+Il quarto giorno la vediamo a occhio nudo. A qualche miglio. Dritta, in assetto. Poi da nord arriva la tempesta.
+Scappiamo. E io continuo a guardare lo schermo verde finché l'eco non sparisce. Da allora non ho mai smesso di guardarlo.
+
+# RICORDO leif_aquavit
+persona: Leif
+titolo: Skål, inglese
+L'Aquavit gira dopo cena, sulla Willow, e gli inglesi si sciolgono come neve al sole. Uno scozzese magro, con lo stomaco a pezzi, mi offre una sigaretta. Un altro dice che non avrebbero nemmeno dovuto essere lì. Che Sua Maestà li avrebbe lasciati al freddo fino a primavera.
+«Cosa facevate, su quella nave?», chiedo.
+Lo scozzese guarda il fondo del bicchiere. «Abbiamo aperto una porta», dice. «E non l'abbiamo chiusa.»
+La mattina dopo nessuno ricorda niente. Io sì.
+
+# RICORDO leif_trym
+persona: Leif
+titolo: La telefonata
+Mi chiama un giornalista di Oslo. Trym Solbakken. Ha la voce di uno che non dorme. Gli racconto tutto: le coordinate, i quattro giorni, l'eco che scappa. Lui scrive, lo sento battere sui tasti.
+«Lei mi crede?», gli chiedo alla fine.
+«Io le credo da prima che lei me lo raccontasse», dice.
+Sei mesi dopo leggo che lo hanno cacciato. Due anni dopo leggo il suo nome su un foglio della Guardia Costiera. *Dispersi. Dinamiche in corso di accertamento.*
+È colpa mia. Lo so. Gli ho dato io la storia.
+
+# RICORDO leif_marit
+persona: Leif
+titolo: A nord
+Marit chiude la porta con la valigia in mano. Non sbatte. Non l'ha mai sbattuta, in vent'anni. È peggio.
+Sunniva ha sei anni e mi chiede: «Papà, dove vai?»
+«A nord. Torno presto.»
+Torno sempre. Ma tardi. Tardi per le recite, per i compleanni, per la febbre. Tardi per la Dee. Arrivo sempre quando le cose sono già andate via.
+Ci sono uomini che nascono con il vento in faccia. Io sono nato con il vento alle spalle, e non sono mai riuscito a raggiungerlo.
+
+# RICORDO bailey_ordini
+persona: Bailey
+titolo: Dove intende portare la mia nave
+Diciannove mesi. Birkenhead, Reykjavik, Stoccolma, Oslo, Tallinn, Helsinki, le Fær Øer. Diciannove mesi in cui la mia nave è stata a disposizione di qualcuno che non conoscevo.
+Poi arriva la busta. Faccio chiamare il professore. Gli chiedo da quanto tempo è con noi. Gli chiedo quante volte abbiamo parlato in privato. Due, dice. Imperdonabile, dico.
+Sono un fedele servitore della Corona. Non metterei mai in discussione un ordine. Ma sono anche il capitano di questa nave. Trentacinque vite.
+«Dunque, professore. Dove intende portare la mia nave?»
+
+# RICORDO bailey_ultimo
+persona: Bailey
+titolo: Abbandonare la nave
+Ho dato l'ordine. I gonfiabili sono in mare, i ragazzi stanno scendendo, la nebbia è così fitta che non vedo la prua dalla plancia.
+Chiamo il laboratorio dall'impianto di emergenza. «Professore. Illarion. La prego.»
+Lui non mi ascolta. Parla di un sigillo che non è un sigillo. Di una tempesta che non è una tempesta.
+«Non sacrificherò nessuno dei miei uomini per un suo capriccio.»
+Le luci si spengono. Sulla Willow, per quattro giorni, griderò come un delfino. Diranno che volevo salvare la nave. Non è vero. Volevo tornare a prenderlo.
+
+# RICORDO fraser_percento
+persona: Fraser
+titolo: Sessantanove percento
+«Sessantasette percento. Sta fornendo energia, professore?» Gli indicatori dicono di sì, ma non è un flusso di elettroni. Non è niente che i nostri sensori sappiano nominare.
+«Sessantotto. Proprio non capisco. A meno che…»
+A meno che non sia la rete stessa a produrla. A sintetizzarla. Come una proteina.
+Egorov mi guarda come si guarda un cane che ha imparato un trucco. «Affascinante», dice.
+Sessantanove. Energia dal nulla. Ho studiato biologia a Edimburgo. Niente, a Edimburgo, ti prepara a questo.
+
+# RICORDO egorov_chiave
+persona: Egorov
+titolo: Non è un sigillo
+Le luci del laboratorio si spengono. Dalla vasca vuota sale una luminescenza rossa, piatta, che si fa sempre più forte.
+«Non è un sigillo, Capitano. Si è presentato come un enigma. Pensavo di doverlo aprire. È una chiave. Una chiave che ha aperto un passaggio, e da quel passaggio sta arrivando qualcosa.»
+Bailey grida dall'altoparlante. Non mi interessa.
+Credevo di fuggire dalla Russia per la libertà. Fuggivo per capire. Tutto, dal 2007, porta il marchio di quei fogli.
+*Sta venendo per me*, penso. E l'idea mi consola.
+
+# RICORDO egorov_padre
+persona: Egorov
+titolo: Mikhail
+Mio padre credeva nel comunismo come altri credono in Dio. Più di Dio: era l'unico interprete capace di svelare i misteri di un mondo sempre più difficile da capire.
+Nel 1990 sono un ragazzo e il mondo si spezza. Mi spezzo con lui.
+Adesso, nel laboratorio, mentre la mia rete comincia a parlare con la cosa sul fondo, provo una gioia che mi fa sentire in colpa. Tanta gioia per qualcosa ottenuto da solo. Mikhail non approverebbe.
+Simbiosi, Capitano. Per noi russi è stato più facile capirla. Nessuna prevaricazione. Solo la necessità di aiutarsi per sopravvivere.
+
+# RICORDO egorov_novgorod
+persona: Egorov
+titolo: Velikij Novgorod
+Primavera del 2007. Un italiano appassionato di archeologia, in giro per la città da turista. Beviamo tanto. Troviamo nell'alchimia un denominatore comune tra le nostre culture. Gli suggerisco luoghi, nomi, contatti.
+Per sdebitarsi mi regala un plico di schizzi trovati al mercato. Forse antichi. Forse troppo moderni.
+Non ricordo il suo nome. Ricordo che sembrava sapere cosa c'era in quei fogli prima che io li aprissi.
+Non l'ho mai cercato. Ho paura che, se lo cercassi, lo troverei.
+
+# RICORDO hoffmann_bombe
+persona: Hoffmann
+titolo: 31 dicembre 1942
+La seconda bomba di profondità ci prende come un bambino che scuote un barattolo pieno di formiche. Il metallo grida. Hörbiger vomita.
+Centoventi metri sopra di noi la Royal Navy e quell'imbecille di Kummetz si fanno a pezzi. Noi dovremmo fuggire. Un sottomarino sperimentale messo al servizio di Straniak. Uno scherzetto al Führer. Si chiama tradimento.
+Per me l'unico mistero degno di essere compreso è il mare.
+Poi Hörbiger punta la Luger contro i timonieri. E Staněk cade ai miei piedi con un buco nella fronte.
+
+# RICORDO horbiger_ninnolo
+persona: Hörbiger
+titolo: Il ninnolo
+«Non possiamo farlo, Capitano. Non possiamo emergere. Nessuno sa che siamo qui. Nessuno ci cercherà.»
+Il ninnolo che trasportiamo. È la parola sbagliata. Lo so. Mi si strozza in gola.
+Hoffmann non capisce. Pensa che io sia pazzo. Forse lo sono. Ma sento quello che abbiamo nella stiva. Sento che vuole restare giù. Che deve restare giù. Che se lo portiamo in superficie, a lui, al Führer, alla guerra…
+Mi dispiace, Staněk. Mi dispiace davvero.
+Il sottomarino si inclina. Scendiamo. Un metro dopo l'altro.
+
+# RICORDO trym_ragnatela
+persona: Trym
+titolo: La parete
+Le pareti del mio studio a Majorstuen sono coperte di mappe del Mare di Barents. Fotografie, articoli, documenti. Da ogni puntina parte un filo rosso.
+Al centro c'è una nave. E accanto alla nave, su un post-it giallo, un nome e un numero di telefono. *Leif A., Willow, Tromsø.*
+Lui me l'ha raccontata per primo. Lui mi ha dato le coordinate. Lui è l'unico che non mi ha mai detto che era una storia del cazzo.
+Se un giorno qualcuno troverà questa nave, sarà lui. Ne sono sicuro come non sono mai stato sicuro di niente.
+
+# RICORDO noi_baldr
+persona: Noi
+titolo: La piattaforma
+Raggiungiamo la piattaforma di atterraggio da cui eravamo scesi solo quattro giorni prima. Anoop, Kristina, Howard, Trym, Arianna. Noi.
+Le debolezze di Howard trasformate dalla forza di Kristina. Il bisogno di certezze di Trym compensato dalla consapevolezza di Anoop. Il desiderio di Anoop colmato dalla piattaforma stessa. Arianna che finalmente non deve spiegare a nessuno a cosa serve un mondo in barattolo.
+«Cosa sei?», chiediamo alla massa che aspetta sotto di noi.
+*Non ha importanza*, ci rispondiamo.
