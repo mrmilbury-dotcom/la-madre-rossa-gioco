@@ -1,0 +1,108 @@
+// RICORDI della linea Baldr.
+// Ogni ricordo affiora quando un blocco contiene ">> ricordo nome".
+// "persona" è chi ricorda; "titolo" compare nell'elenco dei ricordi.
+
+# RICORDO iselin_caffe
+persona: Iselin
+titolo: Il caffè senza zucchero
+Le metto la tazza sotto il naso. Senza zucchero, come piace a lei. Kina ha quella faccia lì, quella del mattino dopo, come se fosse appena tornata da un viaggio di cui non vuole parlare.
+«Non litigo con i miei sogni, Isi. Litigo con le persone.»
+La guardo e vedo l'ombra. Ce l'ha addosso come una sciarpa. Io lo so che le piace. È questo che mi spaventa.
+«Non finisce qui», le dico. Lei sorride, e annusa il caffè, e per un attimo fa una smorfia. Come se sapesse di terra.
+
+# RICORDO kristina_polaroid
+persona: Kristina
+titolo: Gunther–o–come–si–chiamava
+Non riesco a dormire. La piattaforma tossisce, ruttano i tubi, il tavolino scricchiola. E quel tizio mi guarda. Gunther, o Hans, o Ryan. Il sorriso pacioso di uno che ha vegliato su chissà quante notti di chissà chi.
+Lo caccio sotto il cuscino e mi ritrovo guancia a guancia con lui.
+E rido. Rido come una scema, in mutande, con i piedi gelati. *È la prima volta che passi una notte intera con qualcuno, Kristina.*
+Datti da fare, mi dico. Se non riesci a dormire, datti da fare.
+
+# RICORDO kristina_notte
+persona: Kristina
+titolo: In bilico
+Di notte è meglio stare soli. Con i propri pensieri, le proprie ambizioni, i propri incubi.
+Al risveglio il mondo è diverso. Più completo, nella sua instabilità. Non so più cosa sia vero e cosa no, e non voglio saperlo. È una droga, lo so. Isi lo sa. Isi mi guarda come si guarda qualcuno sul bordo di un tetto.
+Ma cosa c'è di sbagliato nel tenersi stretta una cosa che ti rende più intera?
+Qui, sulla Baldr, per la prima volta, la solitudine è impossibile. E per la prima volta non mi dispiace.
+
+# RICORDO howard_teatro
+persona: Howard
+titolo: Masquerade
+Il secondo atto. La scalinata, i cori, le maschere. Becca ride, la mano sulla pancia, le dita intrecciate alle mie. E Conrad scalcia. Un piedino contro il mio palmo, attraverso il vestito di lei.
+E tutto si ferma.
+Respirare mi sembra sbagliato. Le scarpe che porto, la lacca della signora davanti a me, la musica. Non merito niente di questo. Un uomo come me, normale, troppo normale, non ha il diritto di tenere tanta felicità tra le dita.
+*Finalmente lo ammetti, Howie*, dice l'altro. E da quella sera non se ne va più.
+
+# RICORDO howard_straniero
+persona: Howard
+titolo: Lo Straniero
+Credevo che la cosa peggiore fosse l'altro Howard. Poi è arrivato lo Straniero.
+Ha l'odore della foresta di Nottingham, i funghi dalla cappella chiara, l'aria fresca. Ha la pelle rossa che si mangia la luce e uno sguardo blu che non appartiene a niente di questo mondo. Per un attimo ho pensato che fosse venuto a salvarmi. L'altro Howard, dal fondo della sua cassa piena di coperte, ha avuto paura per la prima volta.
+*Mi rimpiangerai*, ha detto.
+Mi sono nascosto nel punto più profondo del guscio. Ma lo Straniero non era l'altro Howard. Lo Straniero è arrivato anche lì.
+
+# RICORDO anoop_shiva
+persona: Anoop
+titolo: Shiva
+Shiva si ferma sul tappeto, piega il muso a destra, poi a sinistra, vede quel batuffolo che ha per coda e comincia a girare in tondo. Sempre più veloce.
+Evy ride. «Sei un maledetto imbroglione, Noop.»
+Di notte non dormo. Mi manca la voce della piattaforma. Chiudo gli occhi e immagino di strappare la casa dal quartiere, di portarla fino alla Baldr e incastrarla tra i tubi. Le scale di mogano che scendono in sala controllo. Evy che mi saluta dall'HRP. I ragazzi che giocano a nascondino sulle passerelle.
+È bello e doloroso, vivere diviso in due.
+
+# RICORDO anoop_voce
+persona: Anoop
+titolo: La seconda moglie
+La Piattaforma mi parla. Non come in tutti questi anni, con sussurri, piccoli assestamenti, vibrazioni. Non come un'amante timida che ha paura di farsi scoprire.
+Mi parla davvero. E ha una voce bellissima.
+Apro gli occhi e li richiudo e li riapro, per essere sicuro di essere sveglio. Sono sveglio. Le dico che mi dispiace di averla quasi odiata. Lei dice che lo sa. Dice che adesso capisce tutto.
+Lage, Niklas, Evy. Shiva. Non so come spiegarvelo. Qui non sono più diviso in due.
+
+# RICORDO trym_nibelungo
+persona: Trym
+titolo: Le storie hanno potere
+«Le storie hanno potere, Trym. Un potere inesauribile. Ma sono anche pericolose, se si perde il controllo.»
+Il Vecchio Nibelungo mi tiene su una poltrona scomoda come un trono di chiodi. Dice che mi sono drogato di una storia sola. Una nave fantasma. *Una storia del cazzo.*
+Torno a casa, apro una birra, accendo la luce dello studio. Le pareti sono coperte di mappe del Mare di Barents, decine di fotografie, fili rossi che partono dalle puntine e si incontrano tutti nello stesso punto.
+«Lo vedi, papà? Lo vedi che non posso avere torto?»
+
+# RICORDO trym_mediocre
+persona: Trym
+titolo: Finalmente
+Giro in tondo nella cuccetta, come un cane che si insegue la coda, sbattendo le ginocchia contro il tavolino, la branda, lo sgabello. La risposta è lì.
+La Arthur Dee non è un fine. È un mezzo. Una scusa. Mi sono creato nemici, poteri occulti, complotti, tutto pur di non guardare l'unica verità.
+«Sono un giornalista mediocre.»
+Lo dico ad alta voce e mi sento leggero. Lo grido. Ed è la cosa più felice che io abbia mai provato.
+Devo dirlo agli altri. Devo dirlo a tutti.
+
+# RICORDO arianna_barattolo
+persona: Arianna
+titolo: Il mondo in barattolo
+Ho dieci anni e la casa è mia per due ore. Scendo le scale come un agente segreto, rubo l'accendino giallo di babbo dal cassetto della credenza.
+Nel barattolo sotto la pellicola ci sono terra, vermi, insetti presi al parco. Scaldo il vetro piano. La pellicola si appanna: sto cambiando il clima del mio mondo. Le uova che nascono sono più piccole dei genitori. Chissà se è colpa mia.
+Lisa lo guarda a lungo e poi chiede: «A cosa serve?»
+«Non serve a niente», le dico. E da allora non lo faccio più vedere a nessuno.
+
+# RICORDO arianna_bicchieri
+persona: Arianna
+titolo: Cinque bicchieri
+Zucchero, pane, carne in scatola, uno stuzzicadenti, un pezzo di plastica. La Cappa Marina li smonta tutti. Disgrega la materia come fanno i funghi, ma senza bisogno di addestramento: una cintura nera di versatilità.
+Il quinto bicchiere, quello che non ho trattato, è diventato molle. Come se la plastica si fosse assottigliata.
+Guardo con un occhio solo, da vicino. Canali, sporofori, passaggi di fluidi. Una rete miceliare grande quanto un'isola.
+Occam mi direbbe di tagliare. Ma non c'è niente da tagliare. È tutto vero.
+
+# RICORDO arianna_occam
+persona: Arianna
+titolo: Il rasoio
+Ho sempre fatto così. Nel lavoro, negli affetti. Escludere tutto quello che non ha senso. Tagliare le cose troppo complicate per l'ecosistema che ho scelto. Un rasoio per proteggermi, a volte per ferire.
+Mi stacco il cartellino con il nome e lo uso come spatola. Raccolgo un campione. Il mio nome sporco di rosso.
+Più tardi, nella mensa, lo capisco: chiamarli funghi è riduttivo. Lei fa scivolare il nutrimento da chi ne ha di più a chi ne ha di meno, come i funghi con le piante.
+Solo che qui il nutrimento siamo noi. I pensieri. I sogni. I desideri.
+
+# RICORDO egorov_luce
+persona: Egorov
+titolo: Una chiave
+Non è un sigillo. Si è presentato come un enigma, mi ha confuso con le sue tante configurazioni. Pensavo di doverlo aprire. È una chiave.
+La vasca di coltura si riempie di luce. Bailey, dall'impianto di emergenza, mi ordina di lasciare il laboratorio. Che senso avrebbe?
+Appoggio le mani sul vetro. Credevo che stessero lottando, il mio micelio e la cosa salita dal fondo. Non lottano. Imparano. L'uno dall'altra.
+*Sta venendo per me*, penso. E l'idea, non so perché, mi consola.
