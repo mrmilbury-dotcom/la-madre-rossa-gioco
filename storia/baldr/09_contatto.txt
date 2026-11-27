@@ -1,0 +1,173 @@
+// IL CONTATTO E I FINALI
+// contatto_1 -> contatto_2 -> contatto_3 (scelta) -> uno dei tre finali.
+
+# EVENTO contatto_1
+titolo: Lei
+stile: madre
+
+## TESTO se vista_madre
+L'ultimo gradino della scaletta è sott'acqua. No: sotto il rosso.
+
+Ti fermi lì, con la suola appoggiata su una superficie che cede appena, spugnosa, tiepida. Come un muschio che cresce su una pietra al sole. Intorno a te la massa si stende fino a dove arriva lo sguardo e poi oltre, dentro la foschia che sale piano dalla sua superficie.
+
+## TESTO se non vista_madre
+Non sei tu ad andare da lei. È lei a venire.
+
+La senti arrivare dalle scale, dai corridoi, dalle fessure tra le lamiere. Non vedi niente, all'inizio. Poi la luce rosata delle lampade si posa sul pavimento e il pavimento è coperto da un velo rosso, sottile come la pellicola che resta sul fondo di una tazza.
+
+Ti viene a prendere dove sei. Come si fa con i bambini che si addormentano sul divano.
+
+## TESTO
+Hai paura. Lo sai, perché il cuore ti batte nelle orecchie e le mani ti tremano. Ma la paura è lontana, è una cosa che succede a un'altra persona, in un'altra stanza.
+
+~ Non tremare, Figlia di Carne. Lei non fa male. Lei ascolta. Capisce. Elabora. Digerisce. E poi ricompone.
+
+~ Ha fatto così anche con me.
+
+La massa rossa sale. Lenta. Ti avvolge le caviglie come acqua calda in una vasca. Ha l'odore di quella gita nei boschi, da bambina, quando ti sei persa per mezz'ora e tuo padre ti ha ritrovata seduta tra i funghi, felice.
+
+Ha l'odore di un caffè, una mattina, al Ministero.
+
+## SCELTA Lascia che salga -> contatto_2
+## SCELTA Chiudi gli occhi -> contatto_2
+Li chiudi. Non serve. Lei vede lo stesso, e adesso vedi anche tu.
+
+
+# EVENTO contatto_2
+titolo: Dentro-fuori
+stile: madre
+
+## TESTO
+I ricordi arrivano come quando si apre una diga.
+
+Non sono tuoi. Sono tuoi. Le due cose insieme.
+
+*Un piccolo appartamento a Majorstuen, le pareti coperte di mappe del Mare di Barents, decine di fili rossi che partono da altrettante puntine e convergono tutti nello stesso punto. Una nave.*
+
+*Un teatro di Londra, il secondo atto, Masquerade. Un piedino che spinge contro il palmo di una mano, e la certezza di non meritarlo.*
+
+*Una casa a Stavanger, di notte. Un cucciolo bianco che gira in tondo sul tappeto. Una moglie che ride.*
+
+*Un barattolo nel cassetto di una scrivania, a Cesena. Vermi, terra, un accendino giallo. Un mondo piccolo e perfetto.*
+
+*Un letto, a Oslo, dove non dorme mai nessuno oltre a lei. Un incubo che non si ricorda ma che lascia addosso una sensazione strana, preziosa. Come essere in bilico tra due mondi.*
+
+## TESTO se ricordi >= 5
+*E più indietro, più in fondo. Un laboratorio sotto la linea di galleggiamento. Una vasca di coltura che si riempie di luce. Un uomo altissimo con un forte accento russo, le mani appoggiate al vetro, che chiede: «Che cosa… sei?»*
+
+>> ricordo egorov_luce
+
+## TESTO
+Poi la diga si apre del tutto e il tuo nome si scioglie. Iselin. Iselin. Iselin. Lo ripeti come faceva Howard, fino a che diventa solo un suono, sillabe incollate a caso.
+
+E sotto il suono, finalmente, qualcun altro.
+
+## SCELTA Ascolta -> contatto_3
+
+
+# EVENTO contatto_3
+titolo: Noi
+stile: madre
+
+## TESTO
+«Isi.»
+
+Una voce sola. La conosci meglio della tua. L'hai sentita lamentarsi del caffè, delle riunioni, dei report della Commissione Energia. L'hai sentita ridere in un ristorante, la sera in cui ha pagato lei, e non succedeva mai.
+
+«Isi. Lo sapevo che saresti venuta. Tu fiuti tutto, come le api.»
+
+Non la vedi. È dappertutto. È nel rosso che ti sale ai fianchi, nel vento tiepido, nel rumore di foglie. È lei e non è lei. È lei e altri quattro e altri cento. Ma è lei.
+
+«Non avere paura. Qui non si è mai soli, la notte. Non avrei mai pensato che mi sarebbe piaciuto.»
+
+~ È ora, Iselin. Lei ti ha-ascoltata. Sa cosa ti serve. Puoi scegliere come.
+
+## SCELTA «Kina.» Lasciati andare. -> finale_noi
+## SCELTA Torna su. Ruben ti sta aspettando. -> finale_ritorno
+## SCELTA Lascia che la piattaforma parli con la tua voce. -> finale_voce se ricordi >= 7
+
+
+# EVENTO finale_noi
+titolo: Fuori. Noi.
+stile: abisso
+
+## TESTO
+Ti lasci andare.
+
+Non è come cadere. È come quando, da bambina, ti addormentavi in macchina e tuo padre ti portava in braccio fino al letto: sai che ti stai muovendo, ma non sei tu a muoverti.
+
+Il rosso ti prende. Poi prende i ricordi. Uno alla volta, li sfoglia, li porta via come fa la corrente con gli strati di una foglia. Il Ministero. Le scale di mattoni rossi. Il caffè. La paura. Ogni ricordo che parte porta con sé uno strato di te, e non fa male. È leggero. È bellissimo.
+
+Sotto di noi la piattaforma si stacca. Sentiamo il suo fremito, la sua nostalgia. La Baldr resta lassù, sveglia, con le sue luci accese e la sua *Primavera*. Messia della Madre. Una che racconta.
+
+Scendiamo.
+
+Il mare si chiude sopra di noi come una coperta tirata fino al mento. Fa buio, ma non è buio. Kristina, accanto a noi — dentro di noi — ride. È la prima notte che passa con qualcuno, e non vuole che finisca.
+
+Iselin, Kristina, Arianna, Anoop, Trym, Howard. Noi.
+
+Non siate tristi, pensiamo–diciamo, verso la superficie, verso un elicottero che sale nel buio, verso Oslo. Non siate tristi.
+
+Presto, molto presto, saremo di nuovo insieme.
+
+Tutti.
+
+>> fine noi
+
+
+# EVENTO finale_ritorno
+titolo: Fuori. Ritorno.
+stile: alba
+
+## TESTO
+Ti volti. Fai un passo indietro. Il rosso ti lascia andare con una gentilezza che ti spezza il cuore: si ritira dalle caviglie come una mano che non vuole trattenerti.
+
+~ Va bene, Figlia di Carne. Va-bene. Lei è paziente. Lei ha tutto il tempo.
+
+Risali. Le scale, i corridoi, la luce rosata delle lampade. Il corridoio giallo e rosso. La porta scorrevole che si apre prima che tu la tocchi. Il vento.
+
+Ruben ha già acceso il motore al massimo. Quando sali ti afferra per un braccio, ti tira dentro, decolla prima ancora che tu abbia chiuso il portello. Non ti chiede niente. Hai la borsa di Kina in mano. Non ricordi di averla presa.
+
+Sotto di voi la Baldr si allontana. È tutta illuminata, adesso, come una nave da crociera nella notte. Intorno, a perdita d'occhio, il mare è rosso.
+
+Poi le nuvole.
+
+Sei fuori. Sei salva. Il rapporto dirà: *recuperati effetti personali di cinque dispersi. Nessuna anomalia rilevata.*
+
+Tre giorni dopo, al Ministero, ti prepari un caffè alla macchinetta del secondo piano. Lo porti alle labbra. Sa di erba. Di terra. Di funghi.
+
+E per la prima volta da sette settimane non ti fa paura.
+
+Sorridi. Perché adesso sai cosa vuol dire. Vuol dire che Kina è lì, in fondo alla tazza. Che di notte, quando ti addormenti, non sei più sola. Che qualcosa di sottile, rosso come un capello, è partito con te dal Mare di Norvegia e ti ha seguita fino a casa. E adesso cresce, piano, sotto la città.
+
+*Presto*, pensi. Pensiamo. *Presto saremo di nuovo insieme.*
+
+>> fine ritorno
+
+
+# EVENTO finale_voce
+titolo: Fuori. Voce.
+stile: alba
+
+## TESTO
+~ Me la presti, la voce? Io ho le parole. Ho tutte le loro parole. Ma ne ho bisogno di una che sappia raccontarle a quelli di fuori.
+
+Dici di sì. Non a voce: non ce n'è più bisogno.
+
+Il rosso ti porta via dalla scaletta, dolce, sulla sua superficie, come una zattera. Ti porta lontano dalla Baldr, fino all'HRP, e ti posa sulla piazzola più alta, quella dove qualcuno guardava il mare senza voltarsi. Adesso sai chi era. Eri tu. Sarai tu.
+
+Sei fuori. Da qui la piattaforma si vede tutta, grande, bellissima, accesa. Viva.
+
+Sulla radio di Ruben, nel buio sopra le nuvole, una voce di donna dice: «Torna pure a casa, Ruben. Tutto bene, qui. Tutto benissimo.»
+
+È la tua voce. Ruben la riconosce. Ruben piange e non sa perché.
+
+Nei mesi successivi qualcuno, al Ministero, proporrà di rilevare la Piattaforma Baldr. Per lo stoccaggio di anidride carbonica, per la transizione ecologica, per un laboratorio di meteobiologia. Al telefono, la piattaforma risponderà a tutti con gentilezza. Con la tua voce.
+
+E racconterà storie. Cinque, soprattutto. Sei, adesso.
+
+Iselin, Kristina, Arianna, Anoop, Trym, Howard. Noi.
+
+Venite, diciamo. Vi stiamo aspettando.
+
+>> fine voce
