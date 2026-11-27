@@ -1,0 +1,112 @@
+// CORRIDOIO — area residenziale est. Collegamenti: ovest -> eliporto, nord -> cabine, est -> mensa
+
+# STANZA corridoio
+titolo: Il corridoio giallo e rosso
+stile: interno
+
+## DESCRIZIONE
+Un corridoio stretto, le pareti rivestite di un materiale gommoso, giallo fino a metà altezza e rosso sopra. Colori da asilo, o da scialuppa di salvataggio. Le luci sono spente, ma da qualche oblò entra quanto basta di questo giorno corto e grigio.
+
+L'aria qui dentro è più calda di quanto dovrebbe. Non molto. Quanto un respiro.
+
+Una targhetta indica: AREA RESIDENZIALE EST. Sotto, qualcuno ha attaccato un foglio con il nastro adesivo. Una porta chiusa porta la scritta SPOGLIATOIO COMUNE.
+
+Il corridoio si divide: a nord una fila di porte, le cabine; a est un passaggio più largo, da cui arriva un odore di cucina fredda. A ovest, la porta scorrevole da cui sei entrata.
+
+## DESCRIZIONE ritorno
+Il corridoio giallo e rosso. Le pareti gommose assorbono i tuoi passi, li rendono morbidi, lontani, come passi di qualcun altro.
+
+A nord le cabine. A est la mensa. A ovest la porta scorrevole verso l'eliporto.
+
+## DESCRIZIONE se risonanza >= 4
+Il corridoio giallo e rosso. Le luci di cortesia, a filo del pavimento, sono accese. Non le ha accese nessuno. Fanno una luce tenue, rosata, che sale lungo le pareti e si ferma all'altezza delle ginocchia, come acqua.
+
+Il materiale gommoso delle pareti, sotto le dita, è tiepido.
+
+A nord le cabine. A est la mensa. A ovest la porta scorrevole.
+
+## DESCRIZIONE se risonanza >= 7
+Il corridoio è più stretto. Lo misuri con le braccia, quasi senza volerlo, e i palmi toccano entrambe le pareti. Prima non ci arrivavi.
+
+~ Non è stretto. È un abbraccio-dentro. Lo facevo anche con loro, la notte. Solo che loro dormivano. O non dormivano. Kristina non dormiva mai.
+
+A nord le cabine. A est la mensa. A ovest la porta scorrevole.
+
+## USCITA ovest -> eliporto
+La porta scorrevole si apre prima che tu la tocchi. Il vento, fuori, ha l'odore del mare vero.
+
+## USCITA nord -> cabine
+## USCITA est -> mensa
+
+## OGGETTO foglio: il foglio sotto la targhetta
+Un foglio A4, la scritta a pennarello, una calligrafia tonda e allegra:
+
+«REGOLE SILENZIOSE DELLA BALDR
+1. Niente Mr. e Mrs.
+2. Il tempo qui scorre diversamente.
+3. Chi spreca parole sembra stupido.
+4. Ascolta la vecchia signora. Lei parla sempre.»
+
+In fondo, una firma: *A.S.* E un disegno, un cagnolino che si insegue la coda.
+
+Anoop Subramani. Il tecnico. Il secondo nome sul foglio della Guardia Costiera.
+
+>> risonanza +1
+
+## OGGETTO foglio: il foglio sotto la targhetta se risonanza >= 5
+Il foglio di Anoop. Rileggi la quarta regola. *Ascolta la vecchia signora. Lei parla sempre.*
+
+Qualcuno, dopo, ha aggiunto una riga con una penna diversa. Una grafia tremante, inclinata in avanti, come se chi scriveva stesse correndo.
+
+«5. Adesso parla davvero.»
+
+>> risonanza +1
+
+## OGGETTO spogliatoio: la porta dello spogliatoio
+Chiusa. Provi la maniglia: non scende. Dall'altra parte, nessun rumore.
+
+Poi, mentre togli la mano, senti l'acqua. Una doccia. Lo scroscio regolare di una doccia aperta, dietro la porta. Acqua calda, a giudicare dal vapore che comincia a filtrare dalla fessura in basso.
+
+Bussi. La doccia si ferma.
+
+Non bussi più.
+
+>> risonanza +1
+
+## OGGETTO spogliatoio: la porta dello spogliatoio se esaminato spogliatoio
+La porta dello spogliatoio. Silenzio. Sul pavimento, davanti alla fessura, una piccola pozza d'acqua che non è evaporata. Ci passi il dito: è tiepida. Sa di sale.
+
+Anoop aveva promesso acqua calda per un paio di docce. *L'ultimo che arriva la farà fredda.*
+
+## OGGETTO pareti: le pareti gommose
+Le tocchi. Sono morbide, appena cedevoli, come le pareti di una palestra per bambini. Qualcuno le ha scelte gialle e rosse perché in caso di emergenza si vedessero anche col fumo.
+
+Premi il palmo. Quando lo togli, l'impronta resta per un secondo, poi il materiale torna liscio. Lentamente. Come la pelle di una persona anziana.
+
+## OGGETTO pareti: le pareti gommose se risonanza >= 4
+Premi il palmo sulla parete rossa.
+
+Sotto la mano qualcosa pulsa. Una volta, forte. Poi un'altra, più piano. Togli la mano di scatto: l'impronta rimane. Non sparisce. Resta lì, cinque dita e un palmo, più scura del resto, come una macchia di umido.
+
+~ Ti ho-sentita. Anche tu mi hai-sentita. Adesso siamo pari, Figlia di Carne.
+
+>> risonanza +1
+
+## ASCOLTA
+Il corridoio assorbe ogni suono. Ascolti e senti soprattutto il tuo sangue nelle orecchie. Poi, da qualche parte nelle pareti, un ticchettio: un tubo che si dilata, si contrae. Un metallo che si assesta.
+
+*Si assesta per cosa?*
+
+>> risonanza +1
+
+## ASCOLTA
+Dalla porta dello spogliatoio arriva una voce. Canta. Una canzone in una lingua che non conosci, un motivetto allegro, stonato. Si interrompe a metà di una nota, come se il cantante si fosse accorto di essere ascoltato.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 4
+Appoggi l'orecchio alla parete. La gomma è tiepida.
+
+Dentro c'è un rumore che conosci. L'hai sentito per anni, ogni volta che posavi la testa sul petto di qualcuno. Un battito. Lento. Troppo lento per un essere umano. Giusto per qualcosa di molto più grande.
+
+>> risonanza +1
