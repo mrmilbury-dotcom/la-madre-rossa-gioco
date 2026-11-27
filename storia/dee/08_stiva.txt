@@ -1,0 +1,77 @@
+// STIVA — sotto il laboratorio. Collegamenti: sopra -> laboratorio, sotto -> contatto_1 (evento)
+
+# STANZA stiva
+titolo: La stiva sotto il laboratorio
+stile: abisso
+
+## DESCRIZIONE
+Un locale basso, a ridosso della chiglia. L'aria è calda e umida come in una serra. Le pareti sono rivestite di qualcosa di morbido, rosso scuro, che risale dal pavimento come muschio sulla corteccia di un albero.
+
+Contro una paratia ronza un armadio di metallo alto due metri, pieno di lucine verdi e blu: il server. Il cuore di calcolo della nave. È l'unica cosa, qui sotto, che non è coperta di rosso.
+
+Al centro del pavimento, il condotto di scarico della vasca. Un portello circolare, largo un metro, aperto. Sotto non c'è il buio della sentina. C'è il mare. Lo senti salire, tiepido, con l'odore di un bosco.
+
+Sopra, la scala a pioli verso il laboratorio. Sotto, il mare.
+
+>> segna vista_varco
+
+## DESCRIZIONE ritorno
+La stiva. Il rosso sulle pareti, il server che ronza, il portello aperto sul mare. Il calore.
+
+Sopra il laboratorio. Sotto il mare.
+
+## USCITA sopra -> laboratorio
+## USCITA sotto -> contatto_1
+Ti siedi sul bordo del portello. Metti giù le gambe. L'acqua — se è acqua — è tiepida, densa, ti avvolge i polpacci come una mano che sa esattamente dove stringere.
+
+## OGGETTO server: il server
+L'armadio del server. Le lucine verdi e blu si accendono e si spengono in sequenze rapide, irregolari, come un linguaggio. Su un piccolo schermo a cristalli liquidi sul fianco scorre una scritta:
+
+> MODELLO: SIGILLO_7 — STATO: COMPLETO
+> UTENTI CONNESSI: 1 — I. EGOROV
+> UTENTI CONNESSI: 6 — BALDR
+> UTENTI CONNESSI: 7 — L. AAMODT (IN CORSO)
+
+>> risonanza +1
+
+## OGGETTO server: il server se esaminato server
+Appoggi la mano sul metallo del server. È l'unica cosa fredda, qui sotto. Fredda come le cose che non hanno ancora deciso cosa diventare.
+
+Ti accorgi che le lucine verdi e blu hanno rallentato. Lampeggiano allo stesso ritmo del tuo cuore.
+
+## OGGETTO varco: il portello aperto
+Ti inginocchi accanto al portello. Sotto, il mare non è nero. È rosso, e dentro il rosso ci sono luci, piccole, lontane, che salgono e scendono come lanterne in una processione.
+
+E più giù, molto più giù, sul fondo, una sagoma. Lunga, sottile, affusolata. Uno scafo. Ha la forma di un sigaro, una torretta sul dorso.
+
+Un sottomarino. Sul fianco, un numero dipinto in bianco, che non puoi leggere da qui e che leggi lo stesso. *U-7920.*
+
+>> risonanza +2
+>> ricordo hoffmann_bombe
+
+## OGGETTO pareti: il rivestimento rosso
+Il muschio rosso sulle pareti. Lo tocchi. È morbido, appena umido, caldo come la pelle di un animale addormentato.
+
+Sotto le dita senti una vibrazione. Poi una frase, dentro la testa, in una voce che non conosci, con l'accento di Oslo.
+
+*Due cose strane sommate non fanno mai una cosa normale.*
+
+>> risonanza +1
+
+## ASCOLTA
+Il mare sotto il portello respira. Sale di qualche centimetro, scende. Sale. Scende. Ogni volta un po' più in alto.
+
+>> risonanza +1
+
+## ASCOLTA
+Ping. Ping. Il sonar, da sotto. E poi una voce che dice in tedesco, molto piano, quasi con dolcezza: «Non possiamo emergere. Lei non capisce. Non possiamo emergere.»
+
+>> risonanza +1
+>> ricordo horbiger_ninnolo
+
+## ASCOLTA se risonanza >= 6
+~ Siamo quasi arrivati, signor Aamodt. Lei, soprattutto. Lei che ci ha inseguiti per quattro giorni, e poi per quattro anni, e poi per tutta la vita.
+
+~ Non deve più correre. Siamo noi, adesso, a venirle incontro.
+
+>> risonanza +1
