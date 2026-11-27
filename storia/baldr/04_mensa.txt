@@ -1,0 +1,139 @@
+// MENSA — Collegamenti: ovest -> corridoio, nord -> sala_controllo
+
+# STANZA mensa
+titolo: La mensa
+stile: luce
+
+## DESCRIZIONE
+La mensa è la stanza più grande che hai visto finora. Tavoli fissati al pavimento, sedie di metallo, un bancone con le vetrine vuote. Una parete intera è fatta di finestroni spessi che danno sul mare aperto: la luce grigia entra da lì e si stende su tutto come una coperta lisa.
+
+Qualcuno ha spinto due divanetti contro i vetri. Sopra ci sono delle coperte ammucchiate. Su un tavolo, vicino alla finestra, cinque bicchieri di plastica allineati, un fornello da campo, delle scatolette aperte e mai finite.
+
+E sul vetro della porta che dà verso nord, all'altezza degli occhi, c'è un alone. Te ne accorgi solo perché la luce lo prende di sbieco.
+
+A ovest il corridoio giallo e rosso. A nord, oltre quella porta a vetri, la sala di controllo.
+
+## DESCRIZIONE ritorno
+La mensa. I finestroni, i divanetti con le coperte, i cinque bicchieri sul tavolo. L'alone sul vetro della porta nord.
+
+A ovest il corridoio. A nord la sala di controllo.
+
+## DESCRIZIONE se risonanza >= 4
+La mensa. La luce dai finestroni è cambiata: non è più grigia, ha una sfumatura calda, da tramonto, anche se il sole non tramonta da questa parte.
+
+Il fornello da campo, sul tavolo, è acceso. Una fiammella blu, piccola, ostinata. Sopra, un pentolino con dell'acqua che comincia a bollire.
+
+~ Ho imparato il tè da Kristina. Lo faceva per Howard. Lo faccio per te.
+
+A ovest il corridoio. A nord la sala di controllo.
+
+## DESCRIZIONE se risonanza >= 7
+La mensa. Dai finestroni il mare è rosso fino all'orizzonte.
+
+No. È la luce. È solo la luce del tramonto che non c'è. Lo ripeti come una preghiera mentre ti allontani dai vetri senza smettere di guardarli.
+
+L'alone sulla porta si legge benissimo, adesso.
+
+A ovest il corridoio. A nord la sala di controllo.
+
+>> ricordo kristina_notte
+
+## USCITA ovest -> corridoio
+## USCITA nord -> sala_controllo
+Passi accanto all'alone sul vetro. Per un attimo, nel riflesso, ti sembra di vedere qualcuno alle tue spalle. Non ti volti.
+
+## OGGETTO scritta: l'alone sul vetro
+Ti avvicini. Non è sporco. È un segno lasciato da un dito, o da molte dita. Come quelli che i bambini disegnano sui vetri appannati, che poi svaniscono e tornano ogni volta che qualcuno ci respira sopra.
+
+Ci respiri sopra.
+
+La parola appare per un secondo, nitida, prima che la condensa si ritiri.
+
+MADRE.
+
+>> risonanza +1
+>> segna vista_scritta
+
+## OGGETTO scritta: l'alone sul vetro se esaminato scritta
+Ci respiri sopra di nuovo. MADRE. E sotto, questa volta, appare un'altra cosa, più piccola, scritta con una grafia diversa. Due lettere.
+
+*K.I.*
+
+Kristina Isaksen. O forse no. Forse lo hai voluto vedere tu.
+
+>> risonanza +1
+
+## OGGETTO bicchieri: i cinque bicchieri
+Cinque bicchieri di plastica, allineati come provette. Su ognuno qualcuno ha scritto con un pennarello: ZUCCHERO. PANE. CARNE. LEGNO. Il quinto non ha etichetta.
+
+I primi quattro sono vuoti. Puliti, quasi. Come se quello che c'era dentro fosse stato digerito. Il quinto è opaco, la plastica assottigliata, molle sotto le dita. Sul fondo, un velo secco color ruggine.
+
+Un esperimento. Fatto di notte, con quello che c'era. Da qualcuno che non voleva smettere di capire.
+
+>> risonanza +1
+>> ricordo arianna_bicchieri
+
+## OGGETTO bicchieri: i cinque bicchieri se risonanza >= 5
+Il quinto bicchiere non è più vuoto. Sul fondo c'è un dito di qualcosa di rosso, poroso, che sembra schiuma da barba e zuppa di barbabietole insieme.
+
+Si muove. Piano. Si allunga verso il bordo del bicchiere, verso la tua mano.
+
+Allontani la mano. Si ferma.
+
+Non si ritira.
+
+>> risonanza +1
+
+## OGGETTO coperte: le coperte sui divanetti
+Coperte di lana grezza, del tipo che si trova nei kit di emergenza. Ammucchiate, attorcigliate, come se qualcuno ci si fosse avvolto dentro e poi ne fosse uscito di colpo.
+
+Sul pavimento, tra i due divanetti, una sedia rovesciata. E un cartellino adesivo strappato, con il bordo arricciato: HOWARD.
+
+Due cartellini. Uno nella cabina, sul cuscino. Uno qui. *Ne ha scritto uno nuovo*, pensi. *Aveva bisogno di ricordarsi come si chiamava.*
+
+>> risonanza +1
+>> ricordo howard_straniero
+
+## OGGETTO coperte: le coperte sui divanetti se esaminato coperte
+Sollevi una coperta. Sotto, sul cuscino del divanetto, l'impronta di una testa. Ancora. Dopo sette settimane.
+
+La tocchi. È calda.
+
+## OGGETTO fornello: il fornello da campo
+Un fornello a gas, di quelli con la bombola avvitata sotto. Accanto, una tazza con dentro un fondo di tè ghiacciato, e un pacchetto di bustine. Qualcuno ha fatto il tè per qualcun altro. Lo si capisce da come la tazza è stata messa: con il manico girato verso il divanetto.
+
+>> risonanza +1
+
+## OGGETTO finestroni: i finestroni
+I vetri sono spessi, progettati per climi estremi. Tengono fuori il gelo, ottundono i suoni. Il mare, di là, sembra lontanissimo, come in un acquario visto dal lato sbagliato.
+
+Appoggi la fronte al vetro. Freddo. Il mare è blu e grigio.
+
+In un angolo, in basso, il vetro è incrinato. Una crepa sottile, a forma di stella. Dentro la crepa, come sangue rappreso in una ferita, c'è un filo rosso.
+
+>> risonanza +1
+
+## ASCOLTA
+Il ronzio del frigorifero spento. No: un frigorifero spento non ronza. Ascolti meglio. È il vetro. I finestroni vibrano piano, una nota bassa, continua, come un bicchiere di cristallo accarezzato sul bordo.
+
+>> risonanza +1
+
+## ASCOLTA
+Dai divanetti arriva un mormorio. Una voce maschile, educata, con un accento inglese. Ripete un nome. Il suo.
+
+*Howard. Howard. Howard.*
+
+Fino a che il nome non significa più niente. Fino a che diventa solo un suono.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 4
+Ti siedi a uno dei tavoli. Chiudi gli occhi.
+
+Senti delle voci. Cinque. Discutono, ridono, si interrompono. Qualcuno parla di una nave. Qualcuno parla di balene. Qualcuno dice *Trym, perdìo*. Il rumore di una forchetta su una scatoletta. Il sibilo del fornello.
+
+Quando apri gli occhi la mensa è vuota. Il fornello è acceso.
+
+~ Era-bello, quando cenavano. Mi piaceva. Non sapevo che la compagnia avesse un odore.
+
+>> risonanza +1
