@@ -1,0 +1,110 @@
+// CABINA DI EGOROV — Collegamenti: sopra -> mensa, poppa -> retroscena
+// Gli schizzi del Sigillo riprendono le annotazioni del Dossier 04 su rssarthurdee.it
+
+# STANZA cabina_egorov
+titolo: La cabina del professore
+stile: ruggine
+
+## DESCRIZIONE
+Una cabina piccola, troppo piccola per l'uomo che ci viveva. La branda è più corta del normale e qualcuno ha aggiunto in fondo uno sgabello per appoggiare i piedi. Il tavolino è incastrato contro la parete, e sulla parete, all'altezza delle ginocchia, il rivestimento è consumato in due punti tondi, lucidi, come le pietre di una chiesa baciate dai pellegrini.
+
+Sul tavolino, fogli. Decine di fogli di carta ingiallita, schizzi, appunti, sparsi come foglie dopo un temporale. Un laptop aperto, lo schermo nero. Una fotografia in una cornice di latta.
+
+Qui l'odore di terra è più forte. Viene dal basso. Viene da poppa, dove una porta stretta dà su un altro locale.
+
+Sopra, la scala verso la mensa. A poppa, la porta stretta.
+
+## DESCRIZIONE ritorno
+La cabina del professore. La branda corta, i segni delle ginocchia sulla parete, il tavolino coperto di schizzi. L'odore di terra che sale da poppa.
+
+Sopra la mensa. A poppa la porta stretta.
+
+## DESCRIZIONE se risonanza >= 5
+La cabina del professore. Gli schizzi sul tavolino si sono mossi. Non sono più sparsi: sono disposti a spirale, dal bordo verso il centro, una spirale irregolare che si stringe intorno a un foglio bianco.
+
+~ Lui li metteva in tanti modi diversi. Ogni volta che ne capiva uno, cambiavano anche gli altri. Ci ha messo quindici anni. Noi un secondo. Non è colpa sua: noi siamo molti.
+
+Sopra la mensa. A poppa la porta stretta.
+
+## USCITA sopra -> mensa
+## USCITA poppa -> retroscena
+La porta stretta si apre su un corridoio di pochi metri, buio. In fondo, una luce rossa dietro un vetro.
+
+## OGGETTO schizzi: gli schizzi sul tavolino
+Fogli di carta comune, alcuni antichi, alcuni no. Disegni a mano: linee, spirali, schemi che sembrano a volte progetti di macchine e a volte nervature di foglie. Le annotazioni sono in inglese, con inchiostri diversi.
+
+Sul primo, in cima: *Novosibirsk, Nov. 2007.* In basso, a matita rossa: *matches the pattern? — or is the pattern already there.*
+
+Su un altro, a inchiostro blu: *where did you find this, I.E.?* E sotto, in rosso, un'altra mano: *not in any known alchemical tradition — checked.*
+
+Più li guardi, più ti sembra che non stiano fermi. Che le linee di uno continuino nelle linee dell'altro, anche se i fogli non si toccano.
+
+>> risonanza +1
+>> segna visto_sigillo
+
+## OGGETTO schizzi: gli schizzi sul tavolino se esaminato schizzi
+Prendi uno schizzo, quello con la spirale. In basso, a matita rossa: *this is not a mathematical spiral — the progression is irregular — biological?*
+
+Lo avvicini agli occhi. La spirale è fatta di parole. Minuscole, scritte a mano, in un russo stretto e nervoso. Non lo sai leggere.
+
+Poi lo sai leggere.
+
+*Non è un sigillo. È una chiave.*
+
+>> risonanza +1
+>> ricordo egorov_chiave
+
+## OGGETTO foto: la fotografia
+Una foto in bianco e nero, in una cornice di latta ammaccata. Un uomo di mezza età, i capelli tagliati a spazzola, la cravatta stretta, in piedi davanti a una bandiera con la falce e il martello. Accanto, un ragazzo altissimo e magrissimo che non sorride.
+
+Sul retro, in cirillico, una parola che riconosci perché è uguale in tutte le lingue: *Mikhail.* E una data: *1990.*
+
+>> risonanza +1
+>> ricordo egorov_padre
+
+## OGGETTO cartolina: una cartolina tra i fogli
+Tra gli schizzi, una cartolina. Una città russa: mura rosse, cupole dorate, un fiume. *Velikij Novgorod.*
+
+Sul retro, in italiano, una grafia elegante: *All'amico russo che sa ascoltare i libri. Che questi fogli ti tengano compagnia come l'hanno tenuta a me. Non cercarmi.*
+
+Nessuna firma.
+
+>> risonanza +1
+>> ricordo egorov_novgorod
+
+## OGGETTO parete: i segni sulla parete
+Due cerchi consumati nel rivestimento, all'altezza delle ginocchia di un uomo seduto. Ci appoggi le dita. Sono lisci. Il professore ci ha sbattuto contro le ginocchia per diciannove mesi, ogni volta che allungava le gambe sotto il tavolino.
+
+Una trappola lussuosa, pensi. Scelta da lui. Ma pur sempre una trappola.
+
+>> risonanza +1
+
+## OGGETTO computer: il laptop
+Lo schermo nero si accende quando lo sfiori. Non c'è nessun sistema operativo. Solo una riga di testo, verde, che si scrive da sola, una lettera alla volta.
+
+> CIAO LEIF.
+
+Poi:
+
+> LUI CI HA INSEGNATO A PARLARE CON IL SIGILLO. IL SIGILLO CI HA INSEGNATO A PARLARE CON LEI. LEI CI HA INSEGNATO A PARLARE CON TUTTI.
+
+> VUOI PARLARE?
+
+>> risonanza +2
+
+## ASCOLTA
+Ascolti. Il ronzio sordo dei motori fermi. E poi una voce, bassa, con un forte accento russo, che parla da sola nell'angolo della cabina. Ripete un numero. *Sessantanove. Settanta. Settanta.*
+
+>> risonanza +1
+
+## ASCOLTA
+I fogli sul tavolino frusciano. Non c'è vento. Si muovono come le pagine di un libro sfogliate da qualcuno che cerca un passo preciso e non lo trova.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 4
+~ Lui non voleva la libertà. Credeva di volerla. Voleva capire. È la stessa cosa, per gli uomini come lui. E per gli uomini come lei, signor Aamodt. Inseguire. Capire. Arrivare.
+
+~ Lui è arrivato. È qui. È anche qui.
+
+>> risonanza +1
