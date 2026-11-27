@@ -1,0 +1,98 @@
+// MENSA DELL'EQUIPAGGIO — Collegamenti: tribordo -> murata, sopra -> cabina_bailey, sotto -> cabina_egorov
+
+# STANZA mensa
+titolo: La mensa dell'equipaggio
+stile: interno
+
+## DESCRIZIONE
+La mensa è apparecchiata.
+
+Trentacinque posti, lunghi tavoli fissati al pavimento, panche imbottite. Su ogni tavolo piatti, bicchieri, posate. Nei piatti c'è del cibo. Pesce bollito, patate, una salsa bianca. Non è marcito. Non è secco. Fuma appena.
+
+Lungo la parete, una fila di armadietti con i nomi dell'equipaggio su strisce di nastro. Una bacheca di sughero con i turni. Un televisore spento.
+
+A tribordo la porta stagna verso la murata. Sopra, la scala interna sale verso la cabina del capitano. Sotto, una scala scende nel ventre della nave.
+
+## DESCRIZIONE ritorno
+La mensa apparecchiata. Trentacinque piatti caldi. Gli armadietti, la bacheca, il televisore spento.
+
+A tribordo la murata. Sopra la cabina del capitano. Sotto il ventre della nave.
+
+## DESCRIZIONE se risonanza >= 4
+La mensa. Sulle panche, adesso, ci sono delle impronte: la stoffa imbottita schiacciata come sotto il peso di persone sedute. Trentaquattro impronte. Un posto vuoto, in fondo, accanto alla scala che scende.
+
+~ Il professore mangiava sempre da solo. Ma il suo posto lo tenevano libero lo stesso. Erano brave persone, i ragazzi del Capitano Bailey. Sono tutti vivi, sa? Tutti. Tranne uno.
+
+A tribordo la murata. Sopra la cabina del capitano. Sotto il ventre della nave.
+
+## DESCRIZIONE se risonanza >= 7
+La mensa. Il cibo nei piatti è coperto da una peluria rossa, finissima, come muffa su un frutto. Ma non è muffa. Si muove tutta insieme, verso di te, come un campo di grano sotto il vento.
+
+>> ricordo trym_ragnatela
+
+A tribordo la murata. Sopra la cabina del capitano. Sotto il ventre della nave.
+
+## USCITA tribordo -> murata
+## USCITA sopra -> cabina_bailey
+## USCITA sotto -> cabina_egorov
+La scala scende in un corridoio più stretto, più basso, con le luci rosse d'emergenza. Le paratie qui sono più spesse. Si sente il mare dall'altra parte.
+
+## OGGETTO piatti: i piatti
+Ti avvicini a un piatto. Merluzzo, patate, salsa al burro. Il profumo è buono. Hai fame, ti accorgi, una fame improvvisa, quasi dolorosa.
+
+Non tocchi niente. Sotto il piatto c'è un tovagliolo piegato, e sul tovagliolo qualcuno ha scritto a penna: *22.X.* Poi, cancellato: *XII?*
+
+>> risonanza +1
+
+## OGGETTO piatti: i piatti se esaminato piatti
+Il piatto davanti a te è vuoto, adesso. Pulito. Come se qualcuno l'avesse mangiato mentre guardavi da un'altra parte. Accanto, una forchetta appoggiata con cura, i rebbi verso l'alto.
+
+## OGGETTO armadietti: gli armadietti
+Trentacinque strisce di nastro, trentacinque nomi. BAILEY non c'è: il capitano ha il suo alloggio. Ma c'è FRASER, il biologo scozzese. Il suo armadietto è aperto. Dentro, un maglione a trecce, un libro di poesie di Burns, una bottiglia di whisky mezza vuota con un biglietto legato al collo con lo spago.
+
+*Per il baleniere che ci ha tirati su. Se mai torni. — D.F.*
+
+Ti ricordi di Fraser. L'hai visto vomitare a poppa della Willow per due giorni, e il terzo ti ha offerto una sigaretta.
+
+>> risonanza +1
+>> ricordo fraser_percento
+
+## OGGETTO armadietti: gli armadietti se esaminato armadietti
+Prendi la bottiglia di Fraser. Ti versi un dito di whisky nel bicchiere più vicino. Torbato, salmastro. Lo bevi.
+
+Sa di terra. Di funghi. Sa di un bosco dopo la pioggia.
+
+Non sputi.
+
+>> risonanza +1
+
+## OGGETTO bacheca: la bacheca dei turni
+Fogli di turni, avvisi, una cartolina di Reykjavik, una barzelletta stampata male sulla Royal Navy. E un foglio intestato, su carta più spessa: *PROTOCOLLO DI SICUREZZA — LABORATORIO B. Accesso consentito esclusivamente al personale autorizzato dal prof. I. Egorov.*
+
+Sotto, a matita, qualcuno ha scritto: *e dal Padreterno.* E qualcun altro, a penna: *Rasputin.*
+
+>> risonanza +1
+
+## OGGETTO tv: il televisore
+Un vecchio televisore a tubo, fissato al soffitto con un braccio snodato. Spento. Nello schermo nero, il riflesso della mensa.
+
+Nel riflesso le panche sono piene. Trentaquattro persone che mangiano, parlano, ridono senza suono. Una si volta e alza un bicchiere verso di te.
+
+Ti giri. Le panche sono vuote.
+
+>> risonanza +2
+
+## ASCOLTA
+Il tintinnio delle posate. Lontano, attutito, come in un ristorante visto dalla strada attraverso un vetro. Qualcuno ride. Qualcuno dice *pass the salt, mate.*
+
+>> risonanza +1
+
+## ASCOLTA
+Ascolti il mare dall'altra parte della paratia. Batte piano. Poi batte tre volte, in fila, più forte. Come chi bussa.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 4
+~ Li abbiamo lasciati andare, sa? Il professore li ha immaginati al sicuro, lontani da qui. E noi abbiamo esaudito il suo desiderio. Era il primo desiderio che sentivamo. Non si dimentica mai il primo.
+
+>> risonanza +1
