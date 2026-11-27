@@ -1,0 +1,119 @@
+// MURATA — il ponte principale, all'aperto. Collegamenti: sopra -> plancia, babordo -> mensa, tribordo -> (lo Skarv, chiuso)
+
+# STANZA murata
+titolo: La murata di tribordo
+stile: notte
+
+## DESCRIZIONE
+Sei sul ponte principale della RSS Arthur Dee. Il ponte è asciutto. Asciutto, in mezzo al Mare di Barents, con la tempesta che monta tutt'intorno a un miglio di distanza: le lamiere sotto le tue suole sono asciutte come il pavimento di una cucina.
+
+Le luci di posizione fanno un bagliore verde e rosso, regolare. A poppa vedi le gru delle lance di salvataggio, tre bracci curvi contro il cielo. A tribordo, oltre la murata, il mare fermo e nero, e più in là, lontane, le luci dello Skarv.
+
+Sopra di te, una scala esterna sale verso la plancia. A babordo, una porta stagna dà nella sovrastruttura: da lì filtra una luce bassa, calda.
+
+*Quattro anni*, pensi. *E nessuno è mai salito. Nessuno tranne te.*
+
+## DESCRIZIONE ritorno
+La murata. Il ponte asciutto, le luci di posizione, le gru delle lance a poppa. Lontane, le luci dello Skarv.
+
+Sopra la scala per la plancia. A babordo la porta stagna.
+
+## DESCRIZIONE se risonanza >= 3
+La murata. Le luci dello Skarv sono più lontane. Molto più lontane. Eppure la Dee è ferma: lo senti nelle gambe, non c'è moto, non c'è rollio.
+
+È il mare che si sta allargando. Come se tra le due navi qualcuno avesse aggiunto acqua.
+
+Sopra la plancia. A babordo la porta stagna.
+
+## DESCRIZIONE se risonanza >= 6
+La murata. Il mare, intorno alla Dee, non riflette più le luci di posizione. Le assorbe. È diventato opaco, granuloso, come terra appena arata.
+
+~ Giorno uno, signor Aamodt. Per lei è sempre giorno uno, su questa nave. Per noi invece i giorni sono finiti da un pezzo. Ce n'erano troppi. Li abbiamo lasciati andare.
+
+Sopra la plancia. A babordo la porta stagna.
+
+## USCITA sopra -> plancia
+La scala esterna è ripida, i gradini stretti. In cima, la porta della plancia è aperta. Ti aspetta.
+
+## USCITA babordo -> mensa
+La porta stagna si apre con un sibilo. Dentro fa caldo. Troppo caldo per una nave abbandonata.
+
+## USCITA tribordo -> -
+Ti sporgi dalla murata e fai un cenno verso lo Skarv. Gridi il nome di Odd. La voce ti torna indietro, come se avessi gridato in una stanza imbottita.
+
+Non c'è nessuna cima. Non c'è nessuna scaletta. Sotto, solo il mare fermo e dieci metri di scafo liscio.
+
+~ Il signor Odd l'aspetterà, non abbia timore. Tutti aspettano qualcuno. Lei lo sa bene.
+
+## OGGETTO lance: le gru delle lance
+Tre gru a braccio curvo, a poppa, quelle che calano le lance di salvataggio in mare. Due sono vuote: i cavi pendono nel vuoto, tagliati di netto, le estremità lisce come vetro.
+
+La terza no. La terza regge ancora la sua lancia, una barca chiusa, arancione, con il tettuccio arrotondato. Sul fianco, la scritta. RSS ARTHUR DEE. LB 3.
+
+Nel 2022 l'equipaggio è scappato con i gonfiabili. Le lance erano rimaste a bordo. Ti ricordi bene: l'hai chiesto tu, a uno di loro, sulla *Willow*. «Perché non avete preso le lance?» E lui ti ha guardato come se avessi bestemmiato.
+
+*Allora dove sono, le altre due?*
+
+>> risonanza +1
+>> segna vista_lancia
+
+## OGGETTO lance: le gru delle lance se esaminato lance
+La lancia LB 3. Appoggi la mano sullo scafo arancione. È tiepido, come un sasso al sole. Dentro, dietro l'oblò del tettuccio, non c'è nessuno. Ma il portello è socchiuso. Come una porta lasciata aperta per un ospite.
+
+## OGGETTO bitta: la bitta
+La bitta d'ormeggio su cui si era avvolta la tua cima. Ti chini. Nessuna traccia di corda, nessuna sfilacciatura. Il metallo è lucido.
+
+Sulla bitta, però, ci sono dei segni sottili. Venature color ruggine che non sono ruggine. Ci passi l'unghia: sono morbide. Come radici di un'erba che cresce nelle crepe del cemento.
+
+>> risonanza +1
+
+## OGGETTO bitta: la bitta se risonanza >= 5
+Le venature sulla bitta si sono allargate. Partono dal metallo e scendono lungo la murata, verso il mare, come rampicanti. Ne segui una con lo sguardo. Arriva fino all'acqua.
+
+E l'acqua, lì, è rossa.
+
+>> risonanza +1
+
+## OGGETTO scafo: lo scafo
+Ti sporgi e guardi lungo la fiancata. Niente ruggine, niente cirripedi, niente alghe. Niente. Una nave alla deriva per quattro anni nel Barents dovrebbe essere un relitto: scrostata, incrostata, mangiata dal sale.
+
+La Dee è perfetta. Come le cose nei sogni. Come le cose che qualcuno si ricorda con troppo amore.
+
+>> risonanza +1
+
+## OGGETTO skarv: le luci dello Skarv
+Lo Skarv. Il peschereccio di tuo cugino, quindici metri di legno e fatica, comprato a rate nel 2009. Da qui è una manciata di luci che oscillano piano.
+
+Prendi la radio dalla tasca. «Odd. Mi senti?»
+
+Una scarica. Poi la voce di Odd, sottile come un filo. «Ti sento. Leif, dove sei? Non ti vedo più. La nave c'è, la vedo sul radar, ma te non ti vedo. Torna indietro. Ti prego. Torna indietro.»
+
+>> risonanza +1
+
+## OGGETTO skarv: le luci dello Skarv se esaminato skarv
+Riprovi con la radio. «Odd?»
+
+Silenzio. Poi una voce che non è quella di Odd. È più giovane, più rotonda, con l'accento di Oslo. «Leif Aamodt? Sono Trym Solbakken, dell'Aftenposten. Lei era sulla Willow, vero? Avrei qualche domanda.»
+
+Spegni la radio. Ti tremano le mani.
+
+>> risonanza +1
+>> ricordo leif_trym
+
+## ASCOLTA
+Ascolti. Il mare non fa rumore. Lo scafo non fa rumore. Ti accorgi che manca qualcosa e ci metti un po' a capire cosa: il vento. Intorno a te infuria una tempesta e qui non c'è un filo di vento.
+
+>> risonanza +1
+
+## ASCOLTA
+Dalle gru delle lance arriva un tintinnio. I cavi tagliati oscillano, battono contro i bracci di metallo. Ding. Ding. Come le campane di un villaggio di montagna, la domenica mattina.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+Dagli altoparlanti del ponte, uno scatto. Una voce maschile, inglese, cortese, con le consonanti limate come quelle di un attore.
+
+~ Signor Aamodt. Benvenuto a bordo della RSS Arthur Dee. La stavamo aspettando. Si prenda tutto il tempo necessario. Non abbiamo fretta, noi.
+
+>> risonanza +1
+>> segna parlato_dee
