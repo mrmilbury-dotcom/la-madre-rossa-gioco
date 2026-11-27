@@ -1,0 +1,84 @@
+// RETROSCENA — Collegamenti: prua -> cabina_egorov, babordo -> laboratorio
+
+# STANZA retroscena
+titolo: Il Retroscena
+stile: ruggine
+
+## DESCRIZIONE
+Un locale stretto, buio, poco più di un corridoio. Una parete intera è una vetrata spessa, infrangibile, che dà sul laboratorio. Dall'altra parte, luce rossa.
+
+Davanti alla vetrata c'è una sedia sola. Pieghevole, di metallo, girata verso il vetro. Accanto alla sedia, appeso al muro, un telefono interno con il filo arricciato.
+
+Qualcuno, sul telaio della porta, ha scritto a pennarello: BACKSTAGE. E sotto, in italiano, con un'altra grafia, *Retroscena*. Da qui il capitano guardava gli esperimenti del professore senza essere visto.
+
+A prua, la cabina del professore. A babordo, una porta stagna con un oblò. Laboratorio B.
+
+## DESCRIZIONE ritorno
+Il Retroscena. La vetrata, la luce rossa di là, la sedia pieghevole girata verso il vetro. Il telefono interno.
+
+A prua la cabina del professore. A babordo il laboratorio.
+
+## DESCRIZIONE se risonanza >= 5
+Il Retroscena. La vetrata vibra, piano, come una membrana. Dall'altra parte, la luce rossa pulsa con un ritmo lento, regolare.
+
+Sulla sedia pieghevole c'è un berretto da ufficiale. Prima non c'era.
+
+~ Il Capitano Bailey si sedeva qui e guardava. Pensava di essere invisibile. Il professore lo sentiva lo stesso. Lo sentivamo anche noi. Si sente sempre, chi guarda.
+
+A prua la cabina del professore. A babordo il laboratorio.
+
+## USCITA prua -> cabina_egorov
+## USCITA babordo -> laboratorio
+Il volantino della porta stagna gira da solo, mezzo giro, poi si ferma, come per invitarti a finire tu.
+
+## OGGETTO vetrata: la vetrata
+Ti avvicini al vetro. È spesso una spanna. Di là, il laboratorio: consolle, monitor, cavi che corrono sul soffitto. E al centro, un grande cilindro di vetro alto fino al soffitto, una vasca, da cui viene tutta quella luce rossa.
+
+Dentro la vasca c'è qualcosa. Una massa. Non riesci a vederne i contorni. Ma sai che ti sta guardando, come sai che qualcuno ti guarda in una stanza affollata.
+
+>> risonanza +1
+
+## OGGETTO vetrata: la vetrata se esaminato vetrata
+Appoggi la mano al vetro.
+
+Dall'altra parte, dentro la vasca, qualcosa si muove. Si allunga verso di te. Si appoggia al vetro della vasca, a quattro metri di distanza, esattamente all'altezza della tua mano.
+
+Una mano. Rossa. Aperta.
+
+>> risonanza +2
+
+## OGGETTO sedia: la sedia pieghevole
+Ti siedi sulla sedia del capitano. È scomoda, fredda, cigola. Bailey ci passava ore. Da qui il laboratorio sembra un palcoscenico illuminato, e tu un critico in ultima fila.
+
+Gli inglesi e il teatro, pensi. Ti torna in mente un inglese sulla Willow che recitava Shakespeare a memoria, ubriaco, sul ponte. *Siamo fatti della stessa materia dei sogni.*
+
+>> risonanza +1
+
+## OGGETTO telefono: il telefono interno
+Un telefono da muro, color crema, con la cornetta pesante. Lo sollevi. Linea libera. Poi un clic.
+
+«Rapporto», dice una voce. Tedesca. Rauca. Dura come un ordine.
+
+Non rispondi. La voce ripete. «Rapporto! Fischer? Meyer? Rapporto, maledizione!» Dietro la voce, un rumore che conosci dai documentari: il ping di un sonar. E poi un boato, profondo, che fa vibrare la cornetta contro il tuo orecchio.
+
+Riattacchi.
+
+>> risonanza +1
+>> ricordo hoffmann_bombe
+
+## ASCOLTA
+Ascolti. La vetrata ronza, un ronzio basso che senti più nei denti che nelle orecchie. Dall'altra parte, attutite, delle voci. Una conta delle percentuali. Un'altra dice *interrompere*.
+
+>> risonanza +1
+
+## ASCOLTA
+Il telefono interno squilla. Una volta sola. Poi tace.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+~ Lo sa come si chiamava, quel posto in cui la nave ha trovato quello che cercava? Un cimitero. Lo chiamano tutti così. Ma un cimitero è un posto dove si va a ricordare, signor Aamodt.
+
+~ Noi ricordiamo tutto.
+
+>> risonanza +1
