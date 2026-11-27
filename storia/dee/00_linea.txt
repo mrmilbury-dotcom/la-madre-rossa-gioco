@@ -1,0 +1,98 @@
+// =====================================================================
+// LINEA: LA RSS ARTHUR DEE
+// Impostazioni della linea ed eventi d'apertura.
+// Per il formato vedi GUIDA_AI_TESTI.md nella cartella principale.
+// =====================================================================
+
+# LINEA dee
+titolo: La RSS Arthur Dee
+protagonista: Leif Aamodt
+inizio: murata
+intro: eco
+stile: notte
+limite_azioni: 75
+tempo: la_tempesta
+non_vedo: Non vedi niente del genere. La nave, però, ti guarda cercarlo.
+non_si_passa: Da quella parte c'è solo paratia. Fredda, liscia, senza un graffio.
+non_capisco: Non capisci nemmeno tu cosa volevi dire. (Scrivi «aiuto».)
+silenzio: Ascolti. Lo scafo, il mare, il tuo respiro. La nave aspetta.
+
+
+# EVENTO eco
+titolo: Mare di Barents, a sud dell'Isola degli Orsi
+stile: notte
+
+## TESTO
+«Leif. Leif, vieni a vedere.»
+
+Odd ha il naso attaccato allo schermo del radar come se volesse annusarlo. Fuori la notte è nera e liscia, il mare piatto come una lastra di ardesia. Lo Skarv dondola appena, le reti a bordo, il motore al minimo.
+
+Ti avvicini. Ti asciughi le mani sui pantaloni. Guardi.
+
+Un'eco. A tre miglia, verso nordest. Grande. Ferma.
+
+«Non c'era un minuto fa», dice Odd. «Te lo giuro su mia madre. Un minuto fa lì non c'era niente.»
+
+Tu non dici niente. Hai già visto quell'eco. L'hai vista per quattro giorni, quattro anni fa, sullo schermo verde della *Willow*. L'hai vista scappare ogni volta che vi avvicinavate, rallentare ogni volta che rallentavate, come un cane che gioca a farsi rincorrere.
+
+Poi, da nord, il barometro comincia a scendere. Così in fretta che Odd lo picchietta con l'unghia, convinto che si sia rotto.
+
+Nessuno aveva previsto una tempesta. Nessuno la prevede mai.
+
+## SCELTA «Avvicinati, Odd.» -> eco_2
+
+
+# EVENTO eco_2
+titolo: La sagoma
+stile: nebbia
+
+## TESTO
+La nebbia si apre come una tenda, e lei è lì.
+
+Una nave da ricerca polare, lo scafo scuro, la sovrastruttura bianca, le gru delle lance a poppa. Ferma. Le luci di posizione accese. Sulla fiancata, le lettere che hai visto in sogno così tante volte che a volte ti sembrava di averle inventate.
+
+RSS ARTHUR DEE.
+
+Non ha un graffio. Non ha un filo di ruggine. Quattro anni alla deriva nel Mare di Barents e sembra uscita ieri dal cantiere di Birkenhead.
+
+«Madonna santa», dice Odd, che non è cattolico. «Leif, quella è…»
+
+«Sì.»
+
+Intorno, a un miglio, a due, la tempesta si sta alzando. Vedi i lampi all'orizzonte, i fulmini che corrono paralleli al mare come rosari elettrici. Ma qui, accanto alla Dee, il mare è fermo. Pesante. Come olio.
+
+Odd ti guarda. Ti conosce da cinquant'anni. Sa cosa stai per dire.
+
+«Accostami.»
+
+«Leif…»
+
+«Stavolta non scappa.»
+
+## SCELTA Sali a bordo -> murata
+Lanci la cima. Si avvolge intorno alla bitta della Dee al primo colpo, come se qualcuno dall'altra parte l'avesse presa al volo. Ti arrampichi lungo la murata con le mani che bruciano. Quando sei in cima ti volti per fare un cenno a Odd.
+
+La cima non c'è più.
+
+
+# EVENTO la_tempesta
+titolo: La tempesta
+stile: madre
+
+## TESTO
+Lo scafo trema. Una volta, dalla chiglia alla cima dell'albero radar, come un animale che si scuote l'acqua di dosso.
+
+Poi la radio, quella che porti nella tasca della giacca, comincia a gridare con la voce di Odd.
+
+«…Leif! Leif, cristo! È arrivata, ci è addosso, non vedo più niente, i motori… Leif, la nave si muove! Si muove da sola!»
+
+È vero. Senti i motori della Dee accendersi da qualche parte sotto di te. Non hanno il suono di un motore diesel. Hanno il suono di un respiro profondo prima di un tuffo.
+
+Dagli altoparlanti dell'impianto d'emergenza arriva una voce maschile, inglese, educata. Cortese come una lama.
+
+~ Avanti piano, prego. Signor Aamodt, la invito a non opporre resistenza. Non è mai servito a nessuno, su questa nave.
+
+Fuori dagli oblò la tempesta. Ma sotto la tempesta, nel mare, a perdita d'occhio, c'è qualcosa che sale. Rosso.
+
+>> risonanza +3
+>> vai contatto_1
