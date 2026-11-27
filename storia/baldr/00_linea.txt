@@ -1,0 +1,70 @@
+// =====================================================================
+// LINEA: LA PIATTAFORMA BALDR
+// Qui ci sono le impostazioni della linea e gli eventi d'apertura.
+// Per il formato vedi GUIDA_AI_TESTI.md nella cartella principale.
+// =====================================================================
+
+# LINEA baldr
+titolo: La Piattaforma Baldr
+protagonista: Iselin
+inizio: eliporto
+intro: arrivo
+stile: nebbia
+limite_azioni: 75
+tempo: il_buio
+non_vedo: Non c'è niente del genere, qui. O forse c'è, ma non vuole farsi guardare.
+non_si_passa: Da quella parte non si va. Il metallo è freddo e non risponde.
+non_capisco: La piattaforma non capisce. Tu nemmeno. (Scrivi «aiuto».)
+silenzio: Ascolti. Il vento, i cavi, il tuo respiro. Nient'altro. Per ora.
+
+
+# EVENTO arrivo
+titolo: Mar di Norvegia, dicembre
+stile: nebbia
+
+## TESTO
+L'elicottero resta sospeso sulla grande H bianca come una libellula che non si fida del fiore.
+
+Sotto, molto più sotto, il mare. Blu. Grigio. Normale. Lo guardi per un minuto intero, la fronte contro il finestrino gelato, e non riesci a decidere se quella normalità ti dia sollievo o ti faccia paura.
+
+«Novanta minuti», dice Ruben Blom senza voltarsi. Ha le mani sulla cloche come se qualcuno potesse portargliela via. «Poi viene buio. Qui viene buio alle tre e un quarto. E io col buio non sto qui sopra.»
+
+«Lei non scende?»
+
+«No.» Una pausa. «L'altra volta non sono sceso. E sono ancora vivo.»
+
+Sette settimane. Sette settimane da quando la Guardia Costiera ha scritto cinque nomi su un foglio e accanto, alla voce *dinamiche*, ha scritto *in corso di accertamento*. Il terzo nome era Kristina Isaksen.
+
+Kina.
+
+Il Ministero voleva qualcuno che recuperasse gli effetti personali. Borse, documenti, quello che le famiglie possono stringere al posto di un corpo. Ti sei offerta prima che finissero di chiedere.
+
+*Non finisce qui*, le avevi detto, una mattina, davanti a un caffè. E non è finita, Kina. Non è finita per niente.
+
+>> ricordo iselin_caffe
+
+## SCELTA Scendi dall'elicottero -> eliporto
+L'aria ti morde la faccia. Sa di sale e di qualcos'altro, più sotto. Il portello si richiude alle tue spalle con un tonfo ovattato.
+
+
+# EVENTO il_buio
+titolo: Il buio
+stile: madre
+
+## TESTO
+La radio che porti alla cintura gracchia. È Ruben, e la sua voce arriva sottile, stirata, come se dovesse attraversare molto più dei pochi metri che vi separano.
+
+«Iselin. Iselin, mi senti? Il sole è andato. Io…» Una scarica. «…le luci. Sulla piattaforma si stanno accendendo le luci. Nessuno le ha accese, Iselin. Nessuno.»
+
+È vero. Una dopo l'altra, intorno a te, le lampade della Baldr si svegliano. Bianche, poi gialle, poi di un rosa che non hai mai visto in nessuna lampada. Come la luce che filtra da una mano messa davanti a una torcia.
+
+La filodiffusione tossisce. Poi parte un violino. *La Primavera.* Vivaldi. In dicembre, in mezzo al mare, al buio.
+
+~ Non andare-via, Figlia di Carne. Prima-ieri sono rimasta sola. Non ancora. Non adesso.
+
+Senti la piattaforma inclinarsi. Non molto. Quanto basta perché tutto quello che hai dentro scivoli verso il basso. Verso il mare.
+
+Il mare che, lo sai senza guardare, non è più blu.
+
+>> risonanza +3
+>> vai contatto_1
