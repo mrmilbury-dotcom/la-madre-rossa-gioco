@@ -1,0 +1,106 @@
+// CABINA DEL CAPITANO — Collegamenti: prua -> plancia, sotto -> mensa
+
+# STANZA cabina_bailey
+titolo: La cabina del Capitano Bailey
+stile: interno
+
+## DESCRIZIONE
+La cabina di Matthew Bailey è piccola, ordinata, foderata di legno scuro. Una scrivania con due poltrone, una per lato. Uno scaffale con dei libri tenuti fermi da una sbarra d'ottone. Un oblò tondo, nero di notte.
+
+Sulla scrivania, una busta marrone. Un laptop chiuso. Una tazza di tè ancora piena, con il cucchiaino appoggiato sul piattino.
+
+Il tè fuma.
+
+A prua la porta verso la plancia. In un angolo, una scala interna stretta scende verso il ponte di sotto.
+
+## DESCRIZIONE ritorno
+La cabina del capitano. La scrivania, le due poltrone, la busta marrone, il laptop. La tazza di tè che continua a fumare.
+
+A prua la plancia. Sotto, la scala interna.
+
+## DESCRIZIONE se risonanza >= 4
+La cabina del capitano. La poltrona dall'altra parte della scrivania, quella degli ospiti, è scostata. Come se qualcuno si fosse appena alzato.
+
+Ci sono due tazze, adesso.
+
+~ Si accomodi, signor Aamodt. Il professore sedeva lì. Si sedeva sempre come se la poltrona fosse troppo piccola per lui. E lo era.
+
+A prua la plancia. Sotto, la scala interna.
+
+## USCITA prua -> plancia
+## USCITA sotto -> mensa
+La scala interna è stretta e ripida. Scendi all'indietro, come su una nave vera. Lo è, ti ricordi. Lo è ancora.
+
+## OGGETTO busta: la busta marrone
+Una busta di carta marrone chiaro, aperta. Dentro, un solo foglio, con poche righe a macchina e un timbro che non riconosci. Ordini.
+
+*La RSS Arthur Dee è a disposizione del professor I. Egorov. Il comandante e l'equipaggio seguiranno le sue indicazioni di rotta e faranno quanto in loro potere per assecondarne le richieste.*
+
+Nessuna firma leggibile.
+
+Diciannove mesi in giro per i porti del nord, e poi questo. Un uomo che non era mai stato padrone della sua nave e non lo sapeva.
+
+>> risonanza +1
+>> ricordo bailey_ordini
+
+## OGGETTO busta: la busta marrone se esaminato busta
+Rigiri la busta. Sul retro, a penna, nella calligrafia piccola e diritta del registro di bordo:
+
+*Dove intende portare la mia nave?*
+
+E sotto, scritto dopo, con un'altra penna, la mano che trema:
+
+*Qui. Ovunque. Sempre.*
+
+## OGGETTO laptop: il laptop
+Lo apri. Lo schermo si accende senza chiederti nessuna password. Una cartina stilizzata: le coste norvegesi, l'Isola degli Orsi, le Svalbard. E un puntino giallo e rosso che lampeggia.
+
+73.25° N, 29° E.
+
+Il puntino si sposta. Lentissimo. Lo segui per un minuto intero. Si sposta con te. Quando ti muovi tu, si muove lui.
+
+>> risonanza +1
+
+## OGGETTO laptop: il laptop se risonanza >= 5
+Il laptop. La cartina è cambiata. Il puntino giallo e rosso non c'è più. Al suo posto, sopra tutto il Mare di Barents, sopra il Mar di Norvegia, sopra le coste e i fiordi, una macchia rossa che si allarga a ogni secondo.
+
+In basso, a sinistra, un nome che non ti dice niente: BALDR.
+
+>> risonanza +1
+
+## OGGETTO te: la tazza di tè
+Earl Grey. Lo senti dall'odore di bergamotto, e sotto il bergamotto qualcos'altro, più terroso. Il tè è caldo. Quattro anni, e il tè di Matthew Bailey è ancora caldo.
+
+Ti viene in mente tua madre, che teneva sempre una caffettiera sul fuoco quando tuo padre era in mare. Diceva che serviva a farlo tornare. Che le navi trovano la strada di casa seguendo l'odore del caffè.
+
+Non è servito.
+
+>> risonanza +1
+>> ricordo leif_marit
+
+## OGGETTO scaffale: lo scaffale dei libri
+Libri di navigazione, manuali, un'edizione rilegata di Conrad. *Il cuore di tenebra.* Un volume sottile, rilegato in pelle, senza titolo sul dorso.
+
+Lo apri. È in latino. Una data a penna sulla prima pagina, 1629, e un nome: *Arthurus Dee.* Il frontespizio mostra un'incisione: una spirale, irregolare, che non segue nessuna regola che tu conosca. Come una conchiglia che qualcuno avesse disegnato a memoria.
+
+>> risonanza +1
+
+## ASCOLTA
+Il cucchiaino tintinna nel piattino. Una volta. Due. Come qualcuno che mescola lo zucchero senza fretta.
+
+Non c'è nessuno.
+
+>> risonanza +1
+
+## ASCOLTA
+Dall'oblò nero arriva un rumore che conosci: il ruggito lontano dei motori di una nave. Ma la Dee è ferma. È un altro motore, un'altra nave, un'altra notte. Una voce che grida in inglese: «Non sacrificherò nessuno dei miei uomini!»
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+~ Il Capitano Bailey era un fedele servitore della Corona. Era anche un uomo che misurava le persone con lo sguardo. Ha misurato il professore. Ha misurato il mare. Non ha misurato noi.
+
+~ Nessuno ci misura, signor Aamodt. Noi, invece, misuriamo tutti. Lei, per esempio, è al trentuno percento.
+
+>> risonanza +1
+>> ricordo bailey_ultimo
