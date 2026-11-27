@@ -1,0 +1,115 @@
+// LOCALI TECNICI INFERIORI — Collegamenti: su -> coperta, est -> red_carpet (solo con risonanza >= 6)
+
+# STANZA locali_tecnici
+titolo: I locali tecnici inferiori
+stile: ruggine
+
+## DESCRIZIONE
+Il ventre della piattaforma. Una stanza grande e bassa, piena di armadi metallici, tavoli, quadri elettrici. Qualcuno ha raddrizzato i mobili che la tempesta aveva rovesciato, e coperto con pannelli di compensato le finestre rinforzate che il mare aveva sfondato. La luce entra dalle fessure tra le assi a strisce sottili, come in una stalla.
+
+L'odore qui è fortissimo. Terra, muschio, funghi. Ti si attacca alla gola, al naso, alla lingua. Respiri con la bocca e lo senti anche lì.
+
+Sul pavimento, ancora, delle pozzanghere. Sette settimane e non si sono asciugate. In un angolo, accatastati sotto una finestra, dei giubbotti di salvataggio. E vicino alla parete opposta un mucchio scuro, informe, intorno a cui qualcuno ha lasciato a terra dei bastoncini bruciati.
+
+Su, le scale esterne. A est una porta stagna con una targa: HRP — RED CARPET.
+
+## DESCRIZIONE ritorno
+I locali tecnici. Le strisce di luce tra le assi, le pozzanghere, i giubbotti sotto la finestra, il mucchio scuro contro la parete. L'odore.
+
+Su, le scale esterne. A est la porta stagna del red carpet.
+
+## DESCRIZIONE se risonanza >= 6
+I locali tecnici. Le pozzanghere sul pavimento brillano. Sotto il velo d'acqua salata si accendono riflessi rossi, a intermittenza, come un'insegna al neon vista attraverso la pioggia.
+
+La porta stagna a est, quella del red carpet, è aperta. Di una spanna. Da lì entra un vento tiepido.
+
+~ Vieni-giù, Iselin. È da lì che sono scesi. È da lì che si sale.
+
+Su, le scale esterne. A est il red carpet.
+
+## USCITA su -> coperta
+## USCITA est -> - se risonanza < 6
+Spingi la porta stagna. Il volantino non gira. Non è bloccato: è come se dall'altra parte qualcuno lo tenesse fermo, con gentilezza. Con fermezza.
+
+~ Non ancora. Non mi conosci ancora abbastanza. Ascoltami-prima.
+
+## USCITA est -> red_carpet se risonanza >= 6
+La porta stagna si apre da sola mentre ti avvicini. Oltre c'è il vento, e il mare, e un ponteggio sospeso nel vuoto.
+
+## OGGETTO conchiglia: il mucchio contro la parete
+Ti avvicini. Non è un mucchio. È una forma.
+
+Ci sono becchi. Ali spezzate. Zampe. Gabbiani, dozzine di gabbiani, ammassati in cerchio. Ma non sono gabbiani: quando ne sfiori uno con la punta della scarpa si disfa con un suono molle, come terra bagnata. Sono imitazioni. Abbozzi, fatti di una materia rossastra ormai secca, come i disegni di un bambino che non ha mai visto un uccello da vicino ma ci ha provato con tutto il cuore.
+
+Li guardi tutti insieme, dall'alto. Sono disposti a spirale. Una spirale irregolare che si stringe verso il centro.
+
+Una conchiglia.
+
+>> risonanza +2
+>> segna vista_conchiglia
+
+## OGGETTO conchiglia: il mucchio contro la parete se esaminato conchiglia
+La conchiglia di gabbiani. Al centro della spirale, dove i corpi abbozzati si stringono fino a toccarsi, c'è uno spazio vuoto. Della misura di un pugno. Della misura di un cuore.
+
+È vuoto. Ma è caldo.
+
+## OGGETTO candelotti: i bastoncini bruciati
+Candelotti fumogeni d'emergenza. Esauriti, la testa annerita. La Guardia Costiera li ha trovati e repertati; questi devono essere rimasti indietro. Ne raccogli uno. L'odore del fosforo è sparito, coperto da quello di terra.
+
+Qualcuno ne ha lanciato uno, qui, verso la conchiglia. Per vedere meglio. Per avere meno paura.
+
+Ce n'è uno intero, dimenticato in una tasca dei giubbotti. Lo prendi.
+
+>> segna candelotto
+>> risonanza +1
+
+## OGGETTO giubbotti: i giubbotti di salvataggio
+Sei o sette giubbotti arancioni, ammucchiati sotto la finestra. Per un attimo, uno solo, li vedi pieni. Corpi dentro. Gonfi d'acqua.
+
+Poi sono di nuovo giubbotti vuoti.
+
+Su uno, scritto col pennarello all'interno del colletto: *T.S.* E sotto, una frase in norvegese che riconosci, perché la diceva tuo nonno: *Havet gir og havet tar.* Il mare dà e il mare prende.
+
+>> risonanza +1
+
+## OGGETTO pozzanghere: le pozzanghere
+Ti chini su una delle pozze. L'acqua è salata, ferma. Sul fondo c'è un deposito rossastro, più pesante dell'acqua. Si è depositato. Eppure, là fuori, la stessa cosa galleggiava. Arianna se n'era accorta: *sta a galla perché vuole farlo*.
+
+Nel riflesso dell'acqua c'è il tuo viso. E dietro il tuo viso, per un attimo, un altro. Con i capelli corti e biondi.
+
+>> risonanza +1
+
+## OGGETTO pozzanghere: le pozzanghere se risonanza >= 5
+Il deposito rosso sul fondo della pozzanghera si muove. Si raccoglie al centro. Prende una forma. Una mano, piccola, aperta. Come quella che si appoggia sui vetri.
+
+Avvicini la tua. La mano rossa sale verso la superficie, ma si ferma un attimo prima di toccarla.
+
+Aspetta te.
+
+>> risonanza +1
+
+## ASCOLTA
+Qualcosa grida, tra le ombre in fondo. Un grido sconnesso, a metà tra un gabbiano e un bambino. Poi un fruscio pesante, umido. Passi?
+
+Poi niente.
+
+>> risonanza +1
+
+## ASCOLTA
+Il mare, sotto il pavimento, batte contro i piloni. Ma tra un'onda e l'altra c'è un altro rumore, più vicino: un risucchio, come quando si tira su una cosa molto pesante da un fondale fangoso.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+~ Qui è dove l'ho sentita la prima volta. La prima-volta-vera. Era nell'acqua. Era nei vetri rotti. Era nei gabbiani che non sapeva fare.
+
+~ Lei impara. Impara male, all'inizio. Come tutti i figli.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 5
+Chiudi gli occhi e senti la conchiglia di gabbiani respirare. Un respiro piccolo, rapido, il respiro di un animale che dorme.
+
+Poi senti il tuo. E i due respiri, a poco a poco, si mettono d'accordo.
+
+>> risonanza +1
