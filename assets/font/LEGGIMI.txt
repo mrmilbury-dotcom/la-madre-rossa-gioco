@@ -1,0 +1,3 @@
+I font del gioco (Cormorant Garamond e IBM Plex Mono, licenza SIL Open Font License 1.1)
+non sono salvati nel repository: li scarica strumenti/scarica_font.sh, che la
+pubblicazione automatica lancia ogni volta. In locale: bash strumenti/scarica_font.sh
