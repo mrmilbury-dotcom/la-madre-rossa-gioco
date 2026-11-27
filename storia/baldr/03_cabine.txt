@@ -1,0 +1,133 @@
+// CABINE — le stanze dei cinque. Collegamenti: sud -> corridoio
+// Qui ci sono le borse da recuperare: ogni cabina contiene un ricordo.
+
+# STANZA cabine
+titolo: Le cabine degli ospiti
+stile: interno
+
+## DESCRIZIONE
+Un corridoio più corto, cinque porte. Tutte aperte. Hai letto il rapporto: *le porte delle cabine erano tutte aperte, i letti disfatti, le borse ancora al loro posto.* Leggerlo era una cosa. Vederlo è un'altra.
+
+Nessuno ha rifatto i letti. Nessuno ha chiuso le porte. Sette settimane e la Baldr ha tenuto tutto così, come una madre che non riesce a entrare nella stanza del figlio.
+
+Su ogni porta, un nome scritto a pennarello su un pezzo di nastro adesivo. SUBRAMANI. SOLBAKKEN. ISAKSEN. PORTER. LAGHI.
+
+Le cabine sono piccole, una branda, un armadietto, un tavolino. Le borse sono lì. Sei venuta a prenderle.
+
+A sud si torna nel corridoio giallo e rosso.
+
+## DESCRIZIONE ritorno
+Le cinque porte aperte. I cinque nomi sul nastro adesivo. Dentro, i letti disfatti, le borse, le cose che nessuno è venuto a prendere.
+
+A sud il corridoio.
+
+## DESCRIZIONE se risonanza >= 5
+Le cinque porte aperte. Ma adesso i letti, dentro, non sono più disfatti: le coperte sono tese, i cuscini gonfi. Come se qualcuno ci stesse dormendo sopra. Cinque sagome, appena accennate, cinque pieghe nel tessuto.
+
+Nessuno. Non c'è nessuno. Ti avvicini e le pieghe si appiattiscono, lente, come un respiro trattenuto.
+
+A sud il corridoio.
+
+## USCITA sud -> corridoio
+
+## OGGETTO isaksen: la cabina di Kristina
+La cabina di Kina. La borsa è aperta sul pavimento, una sciarpa grigia che penzola fuori. Sul tavolino il caricabatterie del telefono, ancora attaccato a niente.
+
+Ti siedi sulla branda. È scomodissima. È stretta. Kina deve averla odiata, lei che non sopportava di dividere la notte con nessuno. Nemmeno con un materasso troppo morbido.
+
+Sotto il cuscino, qualcosa. Una Polaroid scolorita. Un uomo grosso, biondo, che sorride con la faccia di chi ha appena mangiato bene. Non sai chi sia. Non lo sapeva nemmeno Kina, ne sei certa. Sul retro c'è scritto solo: *Gunther?* Con il punto interrogativo, nella sua grafia.
+
+E poi, sotto, a matita: *ridi, Kina, ridi.*
+
+>> risonanza +1
+>> ricordo kristina_polaroid
+>> segna borsa_kristina
+
+## OGGETTO isaksen: la cabina di Kristina se esaminato isaksen
+Prendi la borsa di Kina. La stringi. Pesa poco, troppo poco per contenere una persona.
+
+Lasci la Polaroid dov'era, sotto il cuscino. Ti sembra giusto che qualcuno, almeno lui, Gunther-o-come-si-chiamava, continui a vegliare.
+
+## OGGETTO porter: la cabina di Howard
+La cabina dell'assicuratore inglese. Ordinata fino all'assurdo: le camicie piegate nell'armadietto, le scarpe parallele sotto la branda, un'agenda di pelle aperta su una pagina bianca.
+
+Sul cuscino c'è un cartellino adesivo, di quelli da conferenza. Sopra, in stampatello: HOWARD. È stato staccato e riattaccato così tante volte che la colla non tiene più. Il bordo è consumato. Qualcuno lo ha accarezzato per ore.
+
+Nel taschino della giacca appesa trovi una fotografia: una donna incinta che ride, a teatro, una mano sulla pancia. Dietro: *Becca & Conrad. Her Majesty's.*
+
+>> risonanza +1
+>> ricordo howard_teatro
+
+## OGGETTO porter: la cabina di Howard se esaminato porter
+Rimetti la foto nel taschino. Il cartellino con il nome resta sul cuscino. Non te la senti di spostarlo.
+
+## OGGETTO solbakken: la cabina di Trym
+La cabina più disordinata. Vestiti sul pavimento, una bottiglia di birra vuota incastrata nell'angolo, briciole ovunque. E una piccola agendina nera, aperta sul tavolino, le pagine fitte di una scrittura veloce.
+
+Sfogli. Appunti sulla piattaforma, sulla tempesta, sugli altri quattro. Poi, sempre più spesso, sempre più storto, un nome che torna: *Arthur Dee. Arthur Dee. Arthur Dee.*
+
+L'ultima pagina è diversa. Tre parole sole, scritte con calma, in stampatello:
+
+SONO UN GIORNALISTA MEDIOCRE.
+
+E sotto, più piccolo: *finalmente.*
+
+>> risonanza +1
+>> ricordo trym_nibelungo
+>> segna letta_agendina
+
+## OGGETTO solbakken: la cabina di Trym se esaminato solbakken
+L'agendina di Trym. Ti accorgi che nelle prime pagine, tra un appunto e l'altro, c'è un indirizzo web: *rssarthurdee*, e poi qualcosa di cancellato. E un nome con un numero di telefono: *Leif A., Willow, Tromsø.* Sottolineato tre volte.
+
+Non sai chi sia. Ma qualcuno, da qualche parte, deve averlo saputo.
+
+>> segna nome_leif
+
+## OGGETTO subramani: la cabina di Anoop
+La cabina del tecnico ha l'aria di una casa. Sul tavolino, una tazza con scritto DAD in caratteri sbilenchi. Appeso alla parete, un disegno a pastelli: una piattaforma rossa e bianca in mezzo a un mare viola, e sopra, tra le gru, una casa con il tetto spiovente. Davanti alla casa due bambini e un cane bianco. Il cane si morde la coda.
+
+Nel portafoglio, dimenticato nella giacca, la foto di quel cane. Sul retro: *Shiva, 2 mesi. Egeland.*
+
+>> risonanza +1
+>> ricordo anoop_shiva
+
+## OGGETTO subramani: la cabina di Anoop se esaminato subramani
+Il disegno dei figli di Anoop. La casa incastrata tra i tubi della piattaforma. Ti accorgi solo adesso che qualcuno, con una penna rossa, ha disegnato delle linee sottili che partono dal mare viola e salgono lungo i piloni. Fino alla casa. Fino ai bambini.
+
+Non è la mano di un bambino.
+
+## OGGETTO laghi: la cabina di Arianna
+La cabina della meteorologa italiana. Sul tavolino, il laptop spento, morto, inutile come un fermacarte. Accanto, una matita consumata fino a metà e un temperino. Trucioli ovunque.
+
+Nella tracolla trovi delle tovagliette di carta della mensa, piegate con cura. Sono coperte di isobare, frecce, numeri. *120 metri profondità del fondale?* — il punto interrogativo è così marcato che ha bucato la carta. *Dispositivi elettrici fuori uso. Temporale o altro?*
+
+E su una tovaglietta, da sola, una parola: *Occam*.
+
+>> risonanza +1
+>> ricordo arianna_barattolo
+
+## OGGETTO laghi: la cabina di Arianna se esaminato laghi
+Rileggi le tovagliette di Arianna. In fondo all'ultima, una frase che non avevi notato, scritta più tardi, con un'altra pressione sulla matita, più leggera:
+
+*Non è un fungo. O non solo. È un modo di stare insieme.*
+
+>> segna letta_occam
+
+## ASCOLTA
+Ascolti. Dalle cinque cabine non arriva niente. Poi, piano, dall'ultima porta, quella di Arianna, un fruscio di carta. Una pagina che si gira da sola.
+
+>> risonanza +1
+
+## ASCOLTA
+Dalla cabina di Trym arriva una risata. Breve, bassa, la risata di un uomo grosso che ha appena capito una cosa che gli altri sapevano da tempo. Poi un sospiro.
+
+Poi niente.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 4
+Le cinque cabine respirano insieme. Lo senti. Cinque respiri diversi — uno lento e regolare, uno affannato, uno che si ferma e riparte, uno che russa piano, uno che quasi non c'è — che a poco a poco si avvicinano. Si allineano. Diventano uno.
+
+~ Loro dormivano qui. Io li ascoltavo. È così che ho imparato i respiri. Prima-ieri non sapevo che si potesse respirare in tanti e in uno.
+
+>> risonanza +1
