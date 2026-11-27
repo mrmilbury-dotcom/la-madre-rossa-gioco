@@ -1,0 +1,173 @@
+// IL CONTATTO E I FINALI
+// contatto_1 -> contatto_2 -> contatto_3 (scelta) -> uno dei tre finali.
+
+# EVENTO contatto_1
+titolo: Lei
+stile: madre
+
+## TESTO se vista_varco
+Scivoli giù dal portello.
+
+Non affondi. Il rosso ti tiene, come l'acqua salata del Mar Morto tiene i turisti nelle cartoline. Galleggi sotto la chiglia della Arthur Dee, al buio, e il buio è caldo, e ha un odore di bosco che ti riempie fino in fondo ai polmoni.
+
+## TESTO se non vista_varco
+Non sei tu ad arrivare. È lei.
+
+La senti salire attraverso la nave: dalle sentine, dai condotti, dalle fessure delle paratie. Il pavimento sotto i tuoi piedi si fa morbido, si copre di un velo rosso, sottile come la pelle che si forma sul latte. Ti viene a prendere dove sei.
+
+È la prima volta, nella tua vita, che qualcosa ti viene incontro invece di scappare.
+
+## TESTO
+Hai paura. Lo sai, perché le mani ti tremano come quella mattina del 2022 quando hai visto l'eco della Dee sparire dallo schermo nella tempesta. Ma la paura è lontana. È a bordo di un'altra nave.
+
+~ Non deve temere niente, signor Aamodt. Lei ascolta. Capisce. Elabora. Digerisce. E poi ricompone. Ha fatto così con noi, quattro anni fa. Ha fatto così con il professore.
+
+Il rosso ti sale lungo il corpo. Ha la temperatura del letto di Marit, la domenica mattina, quando Sunniva era piccola e veniva a infilarsi tra voi due.
+
+## SCELTA Lascia che salga -> contatto_2
+## SCELTA Trattieni il fiato -> contatto_2
+Lo trattieni. Per un minuto. Per due. Poi ti accorgi che non serve. Che qui non c'è bisogno di respirare per ricordare.
+
+
+# EVENTO contatto_2
+titolo: Il cimitero che ricorda
+stile: madre
+
+## TESTO
+I ricordi arrivano tutti insieme, come le reti quando le salpi troppo piene e si rompono e il pesce ti rovescia addosso.
+
+*Un sottomarino che affonda, il trentuno dicembre del 1942, centoquaranta metri, centocinquanta. Un uomo con gli occhiali dalla montatura d'osso che punta una pistola contro i timonieri e dice che non possono emergere. Un carico che nessuno ha il coraggio di chiamare per nome.*
+
+*Un mercato a Velikij Novgorod, un italiano gentile, un plico di schizzi forse antichi, forse troppo moderni. Quindici anni a cercare di capirli.*
+
+*Una busta marrone, diciannove mesi di porti, un capitano che misura le persone con lo sguardo e non riesce a misurare il mare.*
+
+*Settantasette percento. Settantotto. Settantanove.*
+
+## TESTO se ricordi >= 5
+*E poi, più lontano, più a sud, un'altra cosa. Una piattaforma in mezzo al Mar di Norvegia. Cinque persone. Una donna che non vuole dividere la notte con nessuno. Un uomo che si ripete il proprio nome. Un tecnico che ama una piattaforma come una seconda moglie. Una meteorologa con un rasoio. E un giornalista grosso, barbuto, con una parete piena di fili rossi, che una volta ti ha telefonato per chiederti della Willow.*
+
+*Trym.*
+
+>> ricordo noi_baldr
+
+## TESTO
+Poi la rete si strappa del tutto e il tuo nome si perde in mezzo al pesce. Leif. Leif Aamodt. Il baleniere. Quello che arriva sempre tardi.
+
+E sotto il nome, qualcuno ti aspetta.
+
+## SCELTA Ascolta -> contatto_3
+
+
+# EVENTO contatto_3
+titolo: Noi
+stile: madre
+
+## TESTO
+«Leif.»
+
+Una voce di uomo, con un forte accento russo. Altissimo, lo sai senza vederlo, troppo alto per qualunque cabina.
+
+«Lei è l'unico che ci abbia inseguiti fino in fondo. Il capitano voleva salvare la nave. Io volevo capire. Lei voleva solo arrivare. È il desiderio più semplice. È il più difficile da esaudire.»
+
+Intorno a te, nel rosso, mille voci. Marinai tedeschi di ottant'anni fa. Pescatori. Naufraghi. Cinque persone che venivano da una piattaforma. E sotto tutte, una che non ha voce, perché non ne ha bisogno. Lei.
+
+~ È ora, signor Aamodt. Lei l'ha ascoltata. Sa di cosa ha bisogno. Può scegliere come.
+
+## SCELTA Lasciati andare. Arriva. -> finale_arrivo
+## SCELTA Risali. Odd ti sta aspettando. -> finale_skarv
+## SCELTA Sali sulla lancia rimasta. -> finale_lancia se ricordo trym_ragnatela e ricordi >= 7
+
+
+# EVENTO finale_arrivo
+titolo: Fuori. Arrivo.
+stile: abisso
+
+## TESTO
+Ti lasci andare.
+
+Il rosso ti porta giù. Lontano dalla chiglia della Arthur Dee, che resta lassù, sospesa nel buio, con le sue luci di posizione accese. Prima figlia della Madre. Una nave che non ha più bisogno di nessun capitano.
+
+Scendiamo.
+
+Ogni metro, un ricordo si stacca. La Willow. Lo Skarv. La caffettiera di nostra madre sul fuoco. Marit che chiude la porta, la valigia in mano. Sunniva a sei anni che chiede: «Papà, dove vai?» E noi che rispondiamo: «A nord. Torno presto.» Ogni ricordo porta via uno strato, e non fa male. È come togliersi i vestiti bagnati, finalmente, davanti a una stufa.
+
+Il fondale. Sabbia, scogli, ferro. Il cimitero di navi del trentuno dicembre. E in mezzo, adagiato su un fianco, l'U-7920, la torretta coperta di un muschio rosso che si muove piano con la corrente.
+
+Ci fermiamo accanto. Non inseguiamo più niente. Per la prima volta in tutta la nostra vita, siamo arrivati.
+
+Leif, Illarion, Hoffmann, Hörbiger, Staněk. E più a sud, lontani e vicinissimi, Trym, Kristina, Anoop, Arianna, Howard. Noi.
+
+Non siate tristi, pensiamo–diciamo, verso un peschereccio che dondola nella tempesta, verso Tromsø, verso una ragazza che non chiama mai suo padre. Non siate tristi.
+
+Presto, molto presto, saremo di nuovo insieme.
+
+Tutti.
+
+>> fine arrivo
+
+
+# EVENTO finale_skarv
+titolo: Fuori. Skarv.
+stile: alba
+
+## TESTO
+Ti volti verso l'alto. Verso la chiglia, verso il portello, verso la luce.
+
+Il rosso ti lascia andare. Ti spinge, anzi. Con una gentilezza che non ti aspettavi, come una mano sulla schiena di un bambino che impara a nuotare.
+
+~ Come preferisce, signor Aamodt. Non abbiamo fretta. Non l'abbiamo mai avuta.
+
+Risali. Il laboratorio, il Retroscena, la mensa con i suoi trentacinque piatti caldi. La murata. E lì, accostato alla Dee come se fosse sempre stato lì, lo Skarv. Odd sporge dalla falchetta con il braccio teso e la faccia bianca come un lenzuolo.
+
+Ti tira su. Non ti chiede niente. Accende il motore al massimo.
+
+Ti volti a guardare la Arthur Dee che si allontana nella tempesta. Si allontana. Ma non scappa. È la prima volta che la vedi andar via senza fretta.
+
+Sei fuori. Sei salvo.
+
+Tre settimane dopo, a Tromsø, chiami Sunniva. Lei risponde al quarto squillo. Parlate per un'ora. Non succedeva da sei anni.
+
+La notte, prima di dormire, accendi il vecchio radar che ti sei portato in casa dalla Willow. Lo tieni sul comodino, per abitudine. Sullo schermo verde c'è un'eco. Ferma, a qualche miglio, fuori dal porto.
+
+Non scappa più. Adesso è lei che segue te.
+
+E tu, per la prima volta, la lasci fare. Hai un filo rosso, sottile come un capello, legato da qualche parte dentro il petto. Tira piano. Tira verso il mare.
+
+*Presto*, pensi. Pensiamo. *Presto saremo di nuovo insieme.*
+
+>> fine skarv
+
+
+# EVENTO finale_lancia
+titolo: Fuori. Lancia.
+stile: alba
+
+## TESTO
+~ Ah. Lei ha capito. Era l'ultima. L'avevamo tenuta per lei.
+
+Il rosso ti riporta su, fino al ponte, fino alla gru della LB 3. La lancia scende in mare da sola, i cavi che scorrono senza un cigolio. Il portello è aperto. Entri. Ti siedi.
+
+I cavi si staccano.
+
+Sei fuori. La Arthur Dee resta lì, alle tue spalle, illuminata, grande, perfetta. Tutto intorno, a perdita d'occhio, il mare è rosso, e la lancia ci scivola sopra come una barca sul fieno.
+
+Non hai remi. Non hai motore. La Madre ti porta.
+
+Verso sud.
+
+Navighi per una notte, un giorno, un'altra notte. Non hai fame, non hai sete, non hai freddo. Dentro di te la voce di Trym racconta una storia, una bella storia, una storia di fantasmi e di scienziati e di una nave che nessuno ha mai trovato. Questa volta, finalmente, non c'è nessuno a dirgli che è una storia del cazzo.
+
+All'alba del terzo giorno, all'orizzonte, una sagoma. Un groviglio di tubi e gru, un braccio spento che punta verso il cielo. Una piattaforma, in mezzo al Mar di Norvegia. Ha le luci accese. Da lontano, nel silenzio, ti sembra di sentire un violino.
+
+La lancia rallenta. Si ferma a un miglio. Accanto a te, nel rosso, galleggiano altre due lance arancioni, rovesciate, le chiglie al cielo. RSS ARTHUR DEE. LB 1. LB 2.
+
+Sei arrivato prima di loro. Per una volta, sei arrivato prima di tutti.
+
+Fra qualche settimana, lassù, cinque persone si sveglieranno nel cuore di una tempesta che nessuno ha previsto. E uno di loro, un giornalista grosso con la barba, guardando il mare con un binocolo, leggerà un nome sulla fiancata di una scialuppa.
+
+Leif, Trym, Illarion. Noi.
+
+È così che comincia, pensiamo–diciamo. È sempre così che comincia.
+
+>> fine lancia
