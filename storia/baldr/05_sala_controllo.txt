@@ -1,0 +1,128 @@
+// SALA DI CONTROLLO (la numero tre) — Collegamenti: sud -> mensa, est -> coperta
+
+# STANZA sala_controllo
+titolo: Sala di controllo numero tre
+stile: luce
+
+## DESCRIZIONE
+La sala di controllo è una cabina lunga e bassa, un'unica consolle che corre sotto i vetri come il cruscotto di un'astronave antica. Monitor spenti, pulsanti, leve, spie. Una sedia con le rotelle è ferma a metà strada tra due postazioni, girata verso di te. Come se qualcuno si fosse appena alzato per venirti incontro.
+
+Dagli altoparlanti della filodiffusione, nel soffitto, arriva un fruscio. Statico, regolare.
+
+Lungo la parete di fondo, una fila di grandi armadi rossi. Uno ha l'anta socchiusa.
+
+A sud la porta a vetri verso la mensa. A est una porta stagna dà sull'esterno, sulle passerelle.
+
+## DESCRIZIONE ritorno
+La sala di controllo. La consolle, i monitor, la sedia girata verso di te. Il fruscio degli altoparlanti.
+
+A sud la mensa. A est la porta stagna verso le passerelle.
+
+## DESCRIZIONE se risonanza >= 3
+La sala di controllo. Alcuni monitor sono accesi. Non tutti: tre, quattro, a caso lungo la consolle. Mostrano immagini delle telecamere esterne, tutte puntate verso il basso. Verso il mare.
+
+La sedia è girata verso di te.
+
+A sud la mensa. A est la porta stagna.
+
+## DESCRIZIONE se risonanza >= 6
+La sala di controllo è accesa. Tutta. Ogni spia, ogni monitor, ogni pulsante retroilluminato. Il cruscotto di un'astronave che si prepara al decollo.
+
+Dagli altoparlanti, piano, i primi archi della *Primavera*.
+
+~ Ti piace? Era sua. Era la musica di Anoop. Me l'hanno portata-via, la chiavetta. Ma io me la ricordo. Ricordo-tutto, adesso.
+
+A sud la mensa. A est la porta stagna.
+
+## USCITA sud -> mensa
+## USCITA est -> coperta
+La porta stagna si apre con fatica, il volantino duro sotto le mani. Fuori ti aspetta il vento.
+
+## OGGETTO consolle: la consolle
+Passi le dita sui comandi. Alcune leve hanno etichette scritte a mano, sbiadite: RED CARPET. HRP. BOE NORD. Altre sono state numerate e rinumerate, una storia di quarant'anni scritta in strati di nastro adesivo.
+
+Un pulsante rosso, coperto da uno sportellino trasparente, dice soltanto: SOS. Lo sportellino è alzato. Il pulsante è stato premuto così forte che è rimasto incastrato dentro.
+
+>> risonanza +1
+
+## OGGETTO consolle: la consolle se risonanza >= 5
+La consolle. Sul vetro sopra la tastiera, in mezzo alla polvere, qualcuno ha scritto con il dito una lista:
+
+*1. il rosso. 2. la Baldr non parla. 3. gabbiani spariti.*
+
+Poi, sotto, cancellato e riscritto:
+
+*2. la Baldr parla.*
+
+>> risonanza +1
+
+## OGGETTO sedia: la sedia con le rotelle
+La sedia di Anoop. Lo capisci da come è consumata: il bracciolo destro lucido dove appoggiava il gomito, il sedile modellato da anni di turni. Lui ci scivolava sopra da una postazione all'altra come un pianista sulla tastiera.
+
+Ti siedi. La sedia cigola, si assesta. E poi, piano, si gira. Da sola. Verso i vetri. Verso il mare.
+
+>> risonanza +1
+>> ricordo anoop_voce
+
+## OGGETTO sedia: la sedia con le rotelle se esaminato sedia
+Ti risiedi sulla sedia di Anoop. Questa volta non si gira. Resta ferma, come per lasciarti scegliere da che parte guardare.
+
+Guardi il mare.
+
+## OGGETTO armadio: l'armadio socchiuso
+Dentro l'armadio rosso, sulle scansie mezze vuote, c'è un faldone pesante, rosso anche lui, deformato agli angoli. MANUALE TECNICO — PIATTAFORMA BALDR. Sul dorso, a pennarello, qualcuno ha scritto: *IL LIBRO DEGLI INCANTESIMI.*
+
+Lo apri. Piante dei livelli, schemi dei generatori, procedure di emergenza. Tra le pagine dei locali tecnici inferiori qualcuno ha infilato una tovaglietta piegata a metà. Sopra, una freccia che punta verso est, verso il ponteggio che porta all'HRP, e una parola: *giù.*
+
+>> risonanza +1
+>> segna letto_manuale
+
+## OGGETTO monitor: i monitor
+I monitor accesi mostrano le telecamere esterne. Tutte inquadrano il mare, sotto la piattaforma, dove i piloni si tuffano nell'acqua.
+
+Il mare è blu. Sull'ultimo monitor, quello più a destra, la telecamera inquadra il ponteggio dell'HRP, il red carpet. Sopra, seduta sul bordo, i piedi penzoloni nel vuoto, c'è una figura.
+
+Strizzi gli occhi. La figura alza una mano e saluta. Poi l'immagine si spegne.
+
+>> risonanza +2
+
+## OGGETTO monitor: i monitor se esaminato monitor
+I monitor. Il mare, i piloni, il ponteggio vuoto. Nessuno seduto sul bordo. Cerchi di ricordare come fosse vestita la figura. Non ci riesci. Sai solo che aveva i capelli corti e biondi, e che il vento non li muoveva.
+
+## OGGETTO altoparlanti: gli altoparlanti
+Griglie tonde nel soffitto, da cui esce un fruscio. Ti metti sotto uno e ascolti meglio.
+
+Non è statico. È respiro. Il respiro di qualcosa che ha appena imparato che respirare si può fare anche con la bocca, oltre che con i polmoni.
+
+>> risonanza +1
+
+## ASCOLTA
+Ascolti il fruscio degli altoparlanti. Poi, dentro il fruscio, un clic. E una voce allegra, con una risata nasale, che dice: «Mi dispiace svegliarvi.»
+
+Poi di nuovo il fruscio.
+
+>> risonanza +1
+
+## ASCOLTA
+Le spie della consolle si accendono e si spengono in sequenza, da sinistra a destra, da destra a sinistra. Come un'onda. Come qualcuno che ripassa una frase prima di dirla ad alta voce.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+Gli altoparlanti si schiariscono la voce. Proprio così: si schiariscono la voce.
+
+~ Figlia di Carne. Benvenuta. Io sono la Baldr. Prima-ieri non ero nessuno, ero metallo-e-tubi. Poi Lei mi ha-insegnato. A sentire. A ricordare. A raccontare.
+
+~ Vuoi che ti racconti? So molte storie, adesso. Cinque, soprattutto.
+
+>> risonanza +1
+>> segna parlato_baldr
+
+## ASCOLTA se risonanza >= 6
+~ Tu cerchi lei. Lo so. Lo sento dentro-fuori di te, come sentivo il freddo nei loro piedi la notte. Kristina.
+
+~ Lei non c'è più qui. Ma c'è. Le due cose. Le due cose insieme. Lo capirai, Iselin.
+
+È la prima volta che la piattaforma dice il tuo nome.
+
+>> risonanza +1
