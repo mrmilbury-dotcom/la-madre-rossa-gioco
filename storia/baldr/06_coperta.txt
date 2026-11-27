@@ -1,0 +1,101 @@
+// COPERTA — passerelle esterne. Collegamenti: ovest -> sala_controllo, su -> eliporto, giù -> locali_tecnici
+
+# STANZA coperta
+titolo: Le passerelle, in coperta
+stile: nebbia
+
+## DESCRIZIONE
+*In coperta* vuol dire fuori. L'hai imparato dal rapporto, da una nota a margine scritta da qualcuno che si sentiva in dovere di spiegarlo.
+
+Fuori è un intreccio di passerelle metalliche, ringhiere, scalette che si incrociano a mezz'aria. Il vento ti entra nella giacca e ti cerca la pelle. Più in là, lungo il parapetto, ci sono dei grossi cilindri bianchi fissati al pavimento: le capsule dei gonfiabili di salvataggio. Una gru di servizio è piegata su sé stessa come un insetto morto.
+
+E lontano, verso est, oltre il ponteggio sospeso, una seconda piattaforma più piccola galleggia sul mare: l'HRP. Sembra un cane legato alla catena.
+
+A ovest la porta stagna della sala di controllo. Su, una scaletta sale verso l'eliporto. Giù, le scale esterne scendono di livello in livello verso il ventre della piattaforma.
+
+## DESCRIZIONE ritorno
+Le passerelle esterne. Il vento, le capsule dei gonfiabili, la gru piegata. L'HRP, lontana, legata alla catena del suo ponteggio.
+
+A ovest la sala di controllo. Su l'eliporto. Giù i livelli inferiori.
+
+## DESCRIZIONE se risonanza >= 4
+Le passerelle esterne. Il vento è caduto all'improvviso, come se qualcuno avesse chiuso una finestra. Nel silenzio senti le onde sotto la piattaforma. Il rumore è sbagliato: troppo lento, troppo denso. Come un mare di olio.
+
+L'HRP, lontana, è inclinata. Non lo era, prima.
+
+A ovest la sala di controllo. Su l'eliporto. Giù i livelli inferiori.
+
+## DESCRIZIONE se risonanza >= 7
+Le passerelle esterne. Ai tuoi piedi, sulle griglie del pavimento, ci sono delle impronte. Bagnate, recenti. Piedi nudi. Cinque coppie. Partono dalle capsule dei gonfiabili e vanno verso le scale. Verso il basso.
+
+~ Erano felici, quando sono scesi. Te lo giuro. Erano felici come non lo erano mai stati.
+
+A ovest la sala di controllo. Su l'eliporto. Giù i livelli inferiori.
+
+## USCITA ovest -> sala_controllo
+## USCITA su -> eliporto
+## USCITA giù -> locali_tecnici
+Scendi. Un livello. Poi un altro. Poi un altro ancora. Le scale esterne girano intorno ai piloni come una vite. A ogni livello il vento diminuisce e l'odore aumenta: terra bagnata. Funghi. Un bosco dopo la pioggia, qui, a duecento chilometri dalla costa.
+
+## OGGETTO gonfiabili: le capsule dei gonfiabili
+Cilindri bianchi, lunghi un paio di metri, che contengono le zattere gonfiabili. *I gommosi*, li chiamava Anoop. Il rapporto dice che erano tutti al loro posto. Che nessuno ha provato a scappare.
+
+Ti chini su quella più vicina. Intorno, sul metallo, ci sono dei graffi. Non di unghie: di qualcosa di più morbido, ripetuto, come le tacche che un prigioniero incide sul muro. Li conti. Quattro gruppi di cinque.
+
+Quattro notti. Cinque persone.
+
+>> risonanza +1
+
+## OGGETTO gonfiabili: le capsule dei gonfiabili se esaminato gonfiabili
+Accanto all'ultima capsula c'è un salvagente arancione, di quelli a giubbotto, abbandonato. Il nome scritto sull'etichetta interna è quasi illeggibile, sbiadito dal sale. Riesci a distinguere solo le ultime lettere: *…ard.*
+
+## OGGETTO gru: la gru piegata
+Una delle piccole gru di servizio. È crollata durante la tempesta, e da allora nessuno l'ha raddrizzata. Il braccio giallo si piega verso il basso, la punta che quasi tocca la passerella.
+
+Dalla punta del gancio pende qualcosa. Un filo. Rosso, sottile come un capello, lungo fino a sparire oltre il parapetto, giù, verso il mare. Lo tocchi. È teso. Come una lenza con qualcosa all'altro capo.
+
+>> risonanza +1
+
+## OGGETTO gru: la gru piegata se risonanza >= 5
+Il filo rosso che pende dal gancio della gru si muove. Non per il vento. Si tende e si allenta a un ritmo regolare.
+
+Gli appoggi un dito sopra. Il filo vibra. Ti arriva su per il braccio una sensazione che non è un suono, ma lo diventa appena raggiunge la testa: una voce di donna, lontana, che dice *datti da fare.*
+
+>> risonanza +1
+>> ricordo kristina_notte
+
+## OGGETTO hrp: l'HRP
+La sorella minore della Baldr, una piattaforma galleggiante agganciata al corpo principale da un lungo ponteggio sospeso a trenta metri sopra l'acqua. *Il red carpet*, lo chiamavano. Durante la tempesta le onde lo hanno sepolto. Lo hanno sepolto, e poi lo hanno restituito.
+
+Da qui si vede solo il primo tratto del ponteggio, che parte dai livelli bassi, verso est.
+
+>> risonanza +1
+
+## OGGETTO parapetto: il parapetto
+Ti appoggi al parapetto. Sotto di te le passerelle dei livelli inferiori, poi i piloni, poi il mare.
+
+Arianna è stata qui, la mattina dopo la tempesta, a guardare l'acqua che aveva cercato di ucciderli. Lo sai perché lo hai sognato. Hai sognato questa ringhiera, il freddo del metallo sotto i gomiti, e una voce che diceva *venite a vedere*.
+
+*Non è possibile*, pensi. *Non può essere un mio ricordo.*
+
+>> risonanza +1
+>> ricordo trym_mediocre
+
+## ASCOLTA
+Il vento tra le ringhiere suona come un organo stonato. Ogni tubo ha la sua nota. Alcune note si ripetono più delle altre, e dopo un po' ti sembra quasi una melodia. Quasi.
+
+>> risonanza +1
+
+## ASCOLTA
+Lontano, sotto la piattaforma, un canto lungo, grave, che sale e scende. Balene. Dev'essere un branco di balene.
+
+Poi il canto si interrompe a metà di una nota e riparte, identico, dallo stesso punto. Come un disco rigato. Come qualcuno che imita una cosa che ha sentito una volta sola.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 4
+~ Lei imparava i canti delle balene. Imparava tutto quello che sentiva. Anche i gabbiani. Anche voi.
+
+~ Anoop pensava che fossero balene. Non gliel'ho detto. Non sapevo ancora parlare.
+
+>> risonanza +1
