@@ -1,0 +1,126 @@
+// ELIPORTO — dove si arriva. Collegamenti: est -> corridoio, giù -> coperta
+
+# STANZA eliporto
+titolo: L'eliporto
+stile: nebbia
+
+## DESCRIZIONE
+Sei sulla grande H bianca. Il cerchio giallo intorno è scolorito dal sale, scrostato in più punti, come un'aureola dimenticata sotto la pioggia.
+
+Alle tue spalle l'elicottero ronza piano: Ruben non ha spento il motore, e il rumore delle pale che girano a vuoto è l'unica cosa viva, quassù. Davanti a te la piattaforma si allunga in un groviglio di tubi, ringhiere, passerelle sospese. Le due gru stanno ferme contro il cielo bianco. Il grande braccio della fiamma punta verso l'alto, spento.
+
+A est un ponteggio coperto scende verso una porta scorrevole. Una scaletta esterna, sul bordo della piazzola, si tuffa giù, verso i livelli più bassi.
+
+*Novanta minuti*, pensi. Poi pensi a Kina che scendeva da qui, sette settimane fa, con i capelli spazzati dal vento.
+
+## DESCRIZIONE ritorno
+L'eliporto. La H, il cerchio giallo, l'elicottero che ronza come un insetto stanco. Ruben ti guarda dal vetro della cabina e alza un pollice che non significa niente.
+
+A est il ponteggio coperto. Giù, la scaletta esterna.
+
+## DESCRIZIONE se risonanza >= 3
+L'eliporto. Il rumore delle pale arriva più lontano di quanto dovrebbe, come se tra te e l'elicottero ci fosse una parete di vetro spesso.
+
+Sotto i piedi la H bianca vibra. Non per il motore: il ritmo è un altro. Più lento. Più largo. *Respira*, pensi, e ti vergogni del pensiero.
+
+A est il ponteggio coperto. Giù, la scaletta esterna.
+
+## DESCRIZIONE se risonanza >= 6
+L'eliporto. Ruben non ti guarda più: ha il viso chino sulla radio, le labbra si muovono. Non senti cosa dice.
+
+La H bianca, sotto di te, ha delle venature. Sottili, color ruggine, come i capillari che si vedono negli occhi di chi non dorme. Prima non c'erano. Ne sei sicura. Quasi.
+
+~ Sei-tornata. Lo sapevo che saresti tornata-su. Tutti tornano-su, alla fine. Per guardare.
+
+A est il ponteggio coperto. Giù, la scaletta esterna.
+
+## USCITA est -> corridoio
+Il ponteggio coperto ti inghiotte. Il rumore dell'elicottero si spegne alle tue spalle come una porta chiusa piano. Una porta scorrevole, spessa, si apre con un sospiro idraulico. Una corta rampa di scale. Poi giallo e rosso.
+
+## USCITA giù -> coperta
+La scaletta è stretta, i gradini traforati. Vedi il mare attraverso le maglie del metallo, a ogni passo. Scendi tenendo lo sguardo sulle mani.
+
+## OGGETTO elicottero: l'elicottero
+Ruben apre il finestrino di una spanna, quanto basta per farsi sentire.
+
+«Tutto bene?»
+
+«Sì.»
+
+«Ha trovato le borse?»
+
+«Non ancora.»
+
+«Allora si sbrighi.» Ti guarda come si guarda qualcuno che sta per entrare in acqua gelata. «L'altra volta le luci erano accese. Quando siamo arrivati. Glielo hanno detto? Sono le prime cose che ho visto. E poi la radio non rispondeva.» Richiude il finestrino.
+
+## OGGETTO elicottero: l'elicottero se esaminato elicottero
+Ruben non apre il finestrino. Batte due dita sull'orologio da polso, e indica il cielo. Il cielo è sempre più basso.
+
+## OGGETTO elicottero: l'elicottero se risonanza >= 6
+Batti sul vetro della cabina. Ruben sobbalza come se lo avessi svegliato. Ti guarda, ma i suoi occhi non si fermano su di te: scivolano oltre, sulla piattaforma. Lo vedi deglutire.
+
+Poi indica qualcosa alle tue spalle. Non ti volti.
+
+>> risonanza +1
+
+## OGGETTO fiamma: il braccio della fiamma
+Il grande braccio metallico che si allunga verso il cielo, in cima al quale bruciava il gas in eccesso. Spento da mesi, prima ancora che arrivassero loro cinque. Una candela soffiata via.
+
+Kina diceva che le cose spente le mettevano tristezza. Non le candele: le cose grandi. Le fabbriche chiuse, gli stadi vuoti, le navi in disarmo. «Sembrano addormentate», diceva, «e poi ti accorgi che non stanno dormendo affatto. Stanno aspettando.»
+
+## OGGETTO fiamma: il braccio della fiamma se risonanza >= 4
+In cima al braccio della fiamma c'è un bagliore. Rosa, debole, come la brace sotto la cenere.
+
+Non c'è gas. Lo sai. Ti hanno spiegato che hanno chiuso tutto, sigillato tutto, che la Baldr è un barattolo vuoto.
+
+Il bagliore pulsa una volta. Due. Poi si spegne, come una palpebra.
+
+>> risonanza +1
+
+## OGGETTO mare: il mare
+Ti avvicini al parapetto della piazzola. Sessanta, forse settanta metri più sotto, il mare si stringe intorno ai piloni della Baldr. È scuro, increspato, di un blu che diventa nero dove l'ombra della piattaforma lo tocca.
+
+Blu. Hai letto il rapporto, le testimonianze. Nessuno, nelle carte ufficiali, parla di rosso. Ma i piloti, al telefono, hanno detto una parola che poi non hanno voluto ripetere. *Marmellata*, aveva detto uno dei due. *Come se il mare fosse diventato marmellata.*
+
+Ora è blu. Solo blu.
+
+*Allora perché non riesci a smettere di guardarlo?*
+
+>> risonanza +1
+
+## OGGETTO mare: il mare se risonanza >= 5
+Il mare è blu. Ma sotto il blu, a qualche metro di profondità, c'è un'ombra più scura che si muove contro corrente. Grande. Lenta. Come un banco di nuvole visto da un aereo.
+
+Si ferma sotto la piattaforma. Proprio sotto di te.
+
+~ Lei-è-qui. Lei-non-se-ne-va-mai-davvero. Come le madri.
+
+>> risonanza +1
+
+## ASCOLTA
+Ascolti. Le pale dell'elicottero. Il vento che fischia tra le ringhiere, un fischio sottile, quasi musicale. E sotto, molto sotto, un rumore che non riesci a riconoscere: lungo, grave, come qualcuno che trattiene il respiro e poi lo lascia andare.
+
+>> risonanza +1
+
+## ASCOLTA
+Il vento cambia. Per un momento ti sembra che i cavi delle gru, battendo sui tubi, stiano contando. Uno. Due. Tre. Quattro. Cinque.
+
+Cinque.
+
+Poi riprendono a battere a caso, come cavi qualsiasi.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+Chiudi gli occhi. Il rumore dell'elicottero si allontana fino a diventare una zanzara in un'altra stanza. Resta il respiro lungo della piattaforma.
+
+E poi, dentro il respiro, una sillaba. Una sola, ripetuta, come chi impara a parlare.
+
+~ Ma.
+
+~ Ma.
+
+~ Ma-dre.
+
+>> risonanza +1
+>> segna sentita_parola
