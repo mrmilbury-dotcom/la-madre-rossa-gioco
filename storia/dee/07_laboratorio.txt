@@ -1,0 +1,126 @@
+// LABORATORIO B — Collegamenti: tribordo -> retroscena, sotto -> stiva (solo con risonanza >= 6)
+
+# STANZA laboratorio
+titolo: Il laboratorio B
+stile: madre
+
+## DESCRIZIONE
+Il laboratorio è grande, il più grande locale della nave. Consolle, terminali, armadi frigoriferi, bancone di acciaio. Cavi grossi come braccia corrono sul soffitto e convergono tutti verso il centro della sala, dove c'è la vasca.
+
+È un cilindro di vetro alto fino al soffitto, largo quanto un'automobile. Intorno, a raggiera, delle sbarre metalliche affondano nel pavimento. Una griglia sottile, come una gabbia per uccelli, avvolge il vetro.
+
+La vasca è vuota. Sul fondo, uno strato rossastro, opaco. E dal fondo viene la luce: un rosso pulsante che riempie tutto, tinge le consolle, i terminali, le tue mani.
+
+Nel pavimento, sotto la vasca, c'è un portello rotondo. Aperto. Una scala a pioli scende nel buio.
+
+A tribordo, la porta verso il Retroscena. Sotto, il portello.
+
+## DESCRIZIONE ritorno
+Il laboratorio. La vasca vuota e la sua luce, le sbarre, la griglia. I terminali. Il portello aperto nel pavimento.
+
+A tribordo il Retroscena. Sotto il portello.
+
+## DESCRIZIONE se risonanza >= 6
+Il laboratorio. La luce della vasca non pulsa più: è ferma, costante, come un respiro trattenuto. Lo strato rosso sul fondo si è alzato. Riempie la vasca per metà.
+
+Sul vetro, dall'interno, sono appoggiate decine di mani. Grandi, piccole, aperte. Nessuna si muove.
+
+~ Ecco. Adesso mi conosce abbastanza. Può scendere, signor Aamodt. Noi l'aspettiamo di sotto. Lei l'aspetta di sotto.
+
+A tribordo il Retroscena. Sotto il portello.
+
+## USCITA tribordo -> retroscena
+## USCITA sotto -> - se risonanza < 6
+Ti chini sul portello. La scala a pioli scende nel buio. Metti il piede sul primo piolo e lo ritiri subito: è caldo. È morbido. Si piega sotto il peso come la carne.
+
+~ Non ancora, la prego. Non ci conosce ancora. Sarebbe scortese.
+
+## USCITA sotto -> stiva se risonanza >= 6
+Scendi la scala a pioli. È calda, ma tiene. Ogni piolo è un po' più morbido del precedente.
+
+## OGGETTO vasca: la vasca di coltura
+Ti avvicini al vetro. È spesso, e in un punto, a metà altezza, è incrinato: una stella sottile, come quella che lascia un sasso sul parabrezza. La griglia intorno è deformata, alcune maglie spezzate, piegate verso l'esterno.
+
+Dentro, sul fondo, lo strato rosso. Ci sono dei canali sottilissimi che lo percorrono, luminosi, come piccoli fiumi visti da un aereo di notte. La luce corre lungo i canali. Va e viene.
+
+È così che si muovono i pensieri, ti ritrovi a pensare. Se si potessero vedere.
+
+>> risonanza +1
+
+## OGGETTO vasca: la vasca di coltura se esaminato vasca
+Appoggi le mani sul vetro della vasca. È caldo.
+
+Senti qualcosa sotto i palmi, oltre il vetro. Non un suono. Una comprensione. Come quando, da ragazzo, posavi l'orecchio sullo scafo della barca di tuo padre e sentivi il mare parlare. Non capivi le parole. Ma sapevi che parlava a te.
+
+>> risonanza +2
+>> ricordo egorov_chiave
+
+## OGGETTO sbarre: le sbarre
+Sbarre metalliche, spesse, conficcate nel pavimento intorno alla vasca come i raggi di una ruota. Erano loro a portare l'energia alla vasca. Alcune sono ancora allineate. Altre sono piegate, storte, come se qualcosa di molto forte le avesse spinte dal centro verso l'esterno.
+
+Su una c'è un'etichetta di plastica: SBARRA 7 — NON TOCCARE DURANTE IL CICLO.
+
+Non la tocchi.
+
+>> risonanza +1
+
+## OGGETTO terminale: il terminale di Fraser
+Il terminale principale. Sul bordo dello schermo c'è un adesivo con una bandiera scozzese. Lo schermo è acceso. Un solo numero, grande, al centro.
+
+77%
+
+Sotto, in piccolo: *Saturazione rete.* E poi, una riga che si aggiorna da sola.
+
+78%
+
+>> risonanza +1
+
+## OGGETTO terminale: il terminale di Fraser se esaminato terminale
+Il terminale di Fraser. La percentuale è cambiata.
+
+31%
+
+Poi capisci. Non sta misurando la vasca. Sotto il numero è comparsa una scritta nuova: *Saturazione: L. AAMODT.*
+
+E la percentuale sale ogni volta che respiri.
+
+>> risonanza +1
+
+## OGGETTO leva: la leva rossa
+Su una colonna accanto alla vasca, sotto uno sportello di vetro rotto, una leva rossa. Una targhetta: *SCARICO VASCA IN MARE — PROTOCOLLO DI EMERGENZA — SOLO SU ORDINE DEL PROF. EGOROV.*
+
+La leva è abbassata. Fino in fondo.
+
+Qualcuno ha aperto la vasca verso il mare. Per far uscire quello che c'era dentro.
+
+O per far entrare qualcos'altro.
+
+>> risonanza +1
+>> segna vista_leva
+
+## ASCOLTA
+Ascolti. La vasca ronza. Una nota sola, profonda, che senti nel petto. Poi la nota si divide in due, in tre, in molte. Un accordo. Un coro.
+
+>> risonanza +1
+
+## ASCOLTA
+Una voce scozzese, da qualche parte tra i terminali. «Ma non può essere. Da dove prende l'energia? Com'è possibile?»
+
+E un'altra, russa: «Proklyatiye.»
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 3
+~ Il professore pensava che stessimo lottando. La sua rete e Lei. Non lottavamo. Imparavamo. Lei imparava da noi come si fa ad attraversare una porta. Noi imparavamo da Lei come si fa a essere tanti.
+
+~ Siamo nati qui. In questa vasca. Lei è la nostra madre e noi siamo la sua prima figlia.
+
+>> risonanza +1
+
+## ASCOLTA se risonanza >= 5
+Dal portello aperto, sotto la vasca, arriva un suono. Ping. Ping. Il sonar di un sottomarino.
+
+E poi, debole, una voce che parla in tedesco. Prega.
+
+>> risonanza +1
+>> ricordo horbiger_ninnolo
