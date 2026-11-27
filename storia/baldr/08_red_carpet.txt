@@ -1,0 +1,61 @@
+// RED CARPET — il ponteggio verso l'HRP. Collegamenti: ovest -> locali_tecnici, giù -> contatto_1 (evento)
+
+# STANZA red_carpet
+titolo: Il red carpet
+stile: madre
+
+## DESCRIZIONE
+Il ponteggio sospeso. Una lunga passerella chiusa da ringhiere, a trenta metri sopra il mare, che collega la Baldr alla sua sorella galleggiante. Oscilla appena sotto i tuoi piedi. Il vento qui è tiepido, e porta l'odore di un bosco.
+
+Guardi giù.
+
+Il mare non è blu.
+
+Non tutto. Non ancora. Ma sotto il ponteggio, intorno ai piloni, l'acqua ha cambiato colore: un rosso scuro, terroso, che si allarga lento come vino rovesciato su una tovaglia. Ha una superficie porosa, opaca. Assorbe la luce invece di rifletterla.
+
+All'altro capo del ponteggio, l'HRP. A ovest, la porta stagna dei locali tecnici. Sotto di te, una scaletta di servizio scende fino al livello dell'acqua.
+
+>> segna vista_madre
+
+## DESCRIZIONE ritorno
+Il red carpet. Il rosso, sotto, si è allargato. Adesso circonda tutti i piloni, abbraccia l'HRP, si stende verso l'orizzonte.
+
+A ovest i locali tecnici. Sotto, la scaletta di servizio.
+
+## USCITA ovest -> locali_tecnici
+## USCITA giù -> contatto_1
+Scendi la scaletta di servizio. Un gradino, poi un altro. L'odore di terra diventa così forte che è quasi un sapore. Il caffè. Il caffè di quella mattina al Ministero, il sapore di erba e funghi che Kina sentiva in fondo alla tazza.
+
+## OGGETTO cartellino: un cartellino sulla passerella
+Sulla griglia del ponteggio c'è un cartellino adesivo, schiacciato, sporco di qualcosa di secco. ARIANNA. Uno degli angoli è consumato, raschiato, come se fosse stato usato per grattare via qualcosa. Una spatola improvvisata. Per raccogliere un campione.
+
+>> risonanza +1
+>> ricordo arianna_occam
+
+## OGGETTO mare_rosso: il rosso sotto il ponteggio
+Ti sporgi dalla ringhiera. La massa rossa, da vicino, sembra schiuma da barba mescolata a zuppa di barbabietole. Ci sono parti più solide e, sotto, come soffocato, il movimento lento del mare.
+
+E ci sono delle forme. Affiorano e spariscono. Un braccio. Una spalla. Un viso che si gira verso di te prima di affondare. Cinque? Più di cinque. Molti di più.
+
+>> risonanza +1
+
+## OGGETTO hrp_vicina: l'HRP
+La piattaforma galleggiante, adesso vicina. È inclinata. Le gru spezzate. Sopra, sulla piazzola più alta, c'è una persona in piedi che guarda il mare. Non si volta. Il vento le muove la giacca, ma non i capelli.
+
+Chiami. La voce ti torna indietro da tutte le direzioni.
+
+>> risonanza +1
+
+## ASCOLTA
+Il rosso, sotto, fa un rumore. Non è un suono d'acqua. È un frusciare di foglie. Migliaia di foglie, milioni, mosse insieme dallo stesso vento.
+
+>> risonanza +1
+
+## ASCOLTA
+~ Iselin. Non devi avere paura. Loro non ne hanno avuta. Lei dà a tutti quello di cui hanno bisogno.
+
+~ Di cosa hai bisogno, tu?
+
+Non rispondi. Ma la piattaforma, lo senti, ha già sentito la risposta.
+
+>> risonanza +1
